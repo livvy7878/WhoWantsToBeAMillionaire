@@ -93,5 +93,11 @@
   <ItemGroup>
     <None Include="Resources\helpGuys.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\daco_4833978_EsB_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ExitApplication.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
