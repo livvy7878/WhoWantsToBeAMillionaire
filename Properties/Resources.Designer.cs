@@ -61,21 +61,21 @@ namespace WhoWantToBeAMillionaire.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Icon daco_4833978_EsB_icon {
+        internal static System.Drawing.Bitmap exitDoor {
             get {
-                object obj = ResourceManager.GetObject("daco_4833978_EsB_icon", resourceCulture);
-                return ((System.Drawing.Icon)(obj));
+                object obj = ResourceManager.GetObject("exitDoor", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ExitApplication {
+        internal static System.Drawing.Bitmap GnomeInGlasses {
             get {
-                object obj = ResourceManager.GetObject("ExitApplication", resourceCulture);
+                object obj = ResourceManager.GetObject("GnomeInGlasses", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -116,6 +116,16 @@ namespace WhoWantToBeAMillionaire.Properties {
         internal static System.Drawing.Bitmap Khsm_logo_big {
             get {
                 object obj = ResourceManager.GetObject("Khsm_logo_big", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap maximGalkin {
+            get {
+                object obj = ResourceManager.GetObject("maximGalkin", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

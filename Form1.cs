@@ -15,6 +15,27 @@ namespace WhoWantToBeAMillionaire
 		public MainWindow()
 		{
 			InitializeComponent();
+			LoadQuestionsFromFileMenuStripItem.Click += OpenFileQuestionLoader;
+			ExitApplicationButton.Click += ExitApplicationButton_Click;
+		}
+
+		private void ExitApplicationButton_Click(object sender, EventArgs e)
+		{
+			DialogResult userAnswer = MessageBox.Show("Закрыть приложение?", "Кто хочет стать миллионером?", MessageBoxButtons.YesNo);
+			switch (userAnswer)
+			{
+				case DialogResult.Yes:
+					Close();
+					break;
+				case DialogResult.No:
+					break;
+			}
+		}
+
+		public void OpenFileQuestionLoader(object sender, EventArgs e)
+		{
+			AddQuestionsForm addQuestionsFormWindow = new AddQuestionsForm();
+			addQuestionsFormWindow.ShowDialog();
 		}
 	}
 }

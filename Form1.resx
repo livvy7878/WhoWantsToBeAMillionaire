@@ -127,6 +127,18 @@
   <data name="играToolStripMenuItem1.Text" xml:space="preserve">
     <value>Игра</value>
   </data>
+  <data name="редакторВопросовToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 22</value>
+  </data>
+  <data name="редакторВопросовToolStripMenuItem.Text" xml:space="preserve">
+    <value>Редактор вопросов</value>
+  </data>
+  <data name="LoadQuestionsFromFileMenuStripItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 22</value>
+  </data>
+  <data name="LoadQuestionsFromFileMenuStripItem.Text" xml:space="preserve">
+    <value>Загрузить вопросы из файла</value>
+  </data>
   <data name="администраторскийРежимToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
     <value>173, 20</value>
   </data>
@@ -162,7 +174,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>15</value>
   </data>
   <data name="играToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>46, 20</value>
@@ -279,7 +291,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;HelpBox.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>14</value>
   </data>
   <data name="QuestionBox.Font" type="System.Drawing.Font, System.Drawing">
     <value>Yu Gothic UI Semibold, 26.25pt, style=Bold</value>
@@ -309,7 +321,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;QuestionBox.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>13</value>
   </data>
   <data name="ExitApplicationButton.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -337,7 +349,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;ExitApplicationButton.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>12</value>
   </data>
   <data name="AnswerA.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -352,7 +364,7 @@
     <value>280, 40</value>
   </data>
   <data name="AnswerA.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+    <value>0</value>
   </data>
   <data name="AnswerA.Text" xml:space="preserve">
     <value>AnswerA</value>
@@ -370,7 +382,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;AnswerA.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>11</value>
   </data>
   <data name="AnswerD.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -388,7 +400,7 @@
     <value>280, 40</value>
   </data>
   <data name="AnswerD.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+    <value>3</value>
   </data>
   <data name="AnswerD.Text" xml:space="preserve">
     <value>AnswerD</value>
@@ -406,7 +418,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;AnswerD.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>10</value>
   </data>
   <data name="AnswerC.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -424,7 +436,7 @@
     <value>280, 40</value>
   </data>
   <data name="AnswerC.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+    <value>2</value>
   </data>
   <data name="AnswerC.Text" xml:space="preserve">
     <value>AnswerC</value>
@@ -442,7 +454,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;AnswerC.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>9</value>
   </data>
   <data name="AnswerB.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -460,7 +472,7 @@
     <value>280, 40</value>
   </data>
   <data name="AnswerB.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+    <value>1</value>
   </data>
   <data name="AnswerB.Text" xml:space="preserve">
     <value>AnswerB</value>
@@ -478,7 +490,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;AnswerB.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>8</value>
   </data>
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -508,7 +520,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>7</value>
   </data>
   <data name="label2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -541,7 +553,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>6</value>
   </data>
   <data name="label3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -553,7 +565,7 @@
     <value>NoControl</value>
   </data>
   <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>667, 565</value>
+    <value>665, 565</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
     <value>37, 32</value>
@@ -574,7 +586,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>5</value>
   </data>
   <data name="label4.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -586,7 +598,7 @@
     <value>NoControl</value>
   </data>
   <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>667, 515</value>
+    <value>668, 515</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
     <value>34, 32</value>
@@ -607,6 +619,117 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="MaxGalkinImage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>872, 259</value>
+  </data>
+  <data name="MaxGalkinImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 144</value>
+  </data>
+  <data name="MaxGalkinImage.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="MaxGalkinImage.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;MaxGalkinImage.Name" xml:space="preserve">
+    <value>MaxGalkinImage</value>
+  </data>
+  <data name="&gt;&gt;MaxGalkinImage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MaxGalkinImage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MaxGalkinImage.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="MaxGalkinCorrectLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="MaxGalkinCorrectLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI Semibold, 24pt, style=Bold</value>
+  </data>
+  <data name="MaxGalkinCorrectLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>666, 311</value>
+  </data>
+  <data name="MaxGalkinCorrectLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 45</value>
+  </data>
+  <data name="MaxGalkinCorrectLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="MaxGalkinCorrectLabel.Text" xml:space="preserve">
+    <value>Правильно!</value>
+  </data>
+  <data name="&gt;&gt;MaxGalkinCorrectLabel.Name" xml:space="preserve">
+    <value>MaxGalkinCorrectLabel</value>
+  </data>
+  <data name="&gt;&gt;MaxGalkinCorrectLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MaxGalkinCorrectLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MaxGalkinCorrectLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="PopupImageCallHelp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="PopupImageCallHelp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 184</value>
+  </data>
+  <data name="PopupImageCallHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 219</value>
+  </data>
+  <data name="PopupImageCallHelp.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="PopupImageCallHelp.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;PopupImageCallHelp.Name" xml:space="preserve">
+    <value>PopupImageCallHelp</value>
+  </data>
+  <data name="&gt;&gt;PopupImageCallHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PopupImageCallHelp.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;PopupImageCallHelp.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="PopupLabelCallHelp.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="PopupLabelCallHelp.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI Semibold, 24pt, style=Bold</value>
+  </data>
+  <data name="PopupLabelCallHelp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>388, 311</value>
+  </data>
+  <data name="PopupLabelCallHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 45</value>
+  </data>
+  <data name="PopupLabelCallHelp.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="PopupLabelCallHelp.Text" xml:space="preserve">
+    <value>Call help</value>
+  </data>
+  <data name="&gt;&gt;PopupLabelCallHelp.Name" xml:space="preserve">
+    <value>PopupLabelCallHelp</value>
+  </data>
+  <data name="&gt;&gt;PopupLabelCallHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PopupLabelCallHelp.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;PopupLabelCallHelp.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -2192,6 +2315,18 @@
     <value>администраторскийРежимToolStripMenuItem1</value>
   </data>
   <data name="&gt;&gt;администраторскийРежимToolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;редакторВопросовToolStripMenuItem.Name" xml:space="preserve">
+    <value>редакторВопросовToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;редакторВопросовToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LoadQuestionsFromFileMenuStripItem.Name" xml:space="preserve">
+    <value>LoadQuestionsFromFileMenuStripItem</value>
+  </data>
+  <data name="&gt;&gt;LoadQuestionsFromFileMenuStripItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;оПрограммеToolStripMenuItem1.Name" xml:space="preserve">

@@ -1,4 +1,6 @@
-﻿namespace WhoWantToBeAMillionaire
+﻿using WhoWantToBeAMillionaire.Properties;
+
+namespace WhoWantToBeAMillionaire
 {
 	partial class MainWindow
 	{
@@ -32,6 +34,8 @@
 			this.menuStrip1 = new System.Windows.Forms.MenuStrip();
 			this.играToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
 			this.администраторскийРежимToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+			this.редакторВопросовToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+			this.LoadQuestionsFromFileMenuStripItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.оПрограммеToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
 			this.играToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.администраторскийРежимToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -50,8 +54,14 @@
 			this.label2 = new System.Windows.Forms.Label();
 			this.label3 = new System.Windows.Forms.Label();
 			this.label4 = new System.Windows.Forms.Label();
+			this.MaxGalkinImage = new System.Windows.Forms.PictureBox();
+			this.MaxGalkinCorrectLabel = new System.Windows.Forms.Label();
+			this.PopupImageCallHelp = new System.Windows.Forms.PictureBox();
+			this.PopupLabelCallHelp = new System.Windows.Forms.Label();
 			this.menuStrip1.SuspendLayout();
 			this.HelpBox.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)(this.MaxGalkinImage)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PopupImageCallHelp)).BeginInit();
 			this.SuspendLayout();
 			// 
 			// menuStrip1
@@ -70,8 +80,21 @@
 			// 
 			// администраторскийРежимToolStripMenuItem1
 			// 
+			this.администраторскийРежимToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.редакторВопросовToolStripMenuItem,
+            this.LoadQuestionsFromFileMenuStripItem});
 			this.администраторскийРежимToolStripMenuItem1.Name = "администраторскийРежимToolStripMenuItem1";
 			resources.ApplyResources(this.администраторскийРежимToolStripMenuItem1, "администраторскийРежимToolStripMenuItem1");
+			// 
+			// редакторВопросовToolStripMenuItem
+			// 
+			this.редакторВопросовToolStripMenuItem.Name = "редакторВопросовToolStripMenuItem";
+			resources.ApplyResources(this.редакторВопросовToolStripMenuItem, "редакторВопросовToolStripMenuItem");
+			// 
+			// LoadQuestionsFromFileMenuStripItem
+			// 
+			this.LoadQuestionsFromFileMenuStripItem.Name = "LoadQuestionsFromFileMenuStripItem";
+			resources.ApplyResources(this.LoadQuestionsFromFileMenuStripItem, "LoadQuestionsFromFileMenuStripItem");
 			// 
 			// оПрограммеToolStripMenuItem1
 			// 
@@ -111,6 +134,7 @@
 			this.HelpGuysButton.FlatAppearance.BorderSize = 0;
 			this.HelpGuysButton.Image = global::WhoWantToBeAMillionaire.Properties.Resources.helpGuys;
 			this.HelpGuysButton.Name = "HelpGuysButton";
+			this.HelpGuysButton.TabStop = false;
 			this.HelpGuysButton.UseVisualStyleBackColor = false;
 			// 
 			// HelpCallButton
@@ -120,6 +144,7 @@
 			this.HelpCallButton.FlatAppearance.BorderSize = 0;
 			this.HelpCallButton.Image = global::WhoWantToBeAMillionaire.Properties.Resources.helpCall;
 			this.HelpCallButton.Name = "HelpCallButton";
+			this.HelpCallButton.TabStop = false;
 			this.HelpCallButton.UseVisualStyleBackColor = false;
 			// 
 			// Help50x50Button
@@ -129,6 +154,7 @@
 			this.Help50x50Button.FlatAppearance.BorderSize = 0;
 			this.Help50x50Button.Image = global::WhoWantToBeAMillionaire.Properties.Resources.help50x50;
 			this.Help50x50Button.Name = "Help50x50Button";
+			this.Help50x50Button.TabStop = false;
 			this.Help50x50Button.UseVisualStyleBackColor = false;
 			// 
 			// QuestionBox
@@ -140,14 +166,16 @@
 			this.QuestionBox.ForeColor = System.Drawing.Color.White;
 			this.QuestionBox.Name = "QuestionBox";
 			this.QuestionBox.ReadOnly = true;
+			this.QuestionBox.TabStop = false;
 			// 
 			// ExitApplicationButton
 			// 
 			resources.ApplyResources(this.ExitApplicationButton, "ExitApplicationButton");
 			this.ExitApplicationButton.BackColor = System.Drawing.Color.Black;
 			this.ExitApplicationButton.FlatAppearance.BorderSize = 0;
-			this.ExitApplicationButton.Image = global::WhoWantToBeAMillionaire.Properties.Resources.ExitApplication;
+			this.ExitApplicationButton.Image = global::WhoWantToBeAMillionaire.Properties.Resources.exitDoor;
 			this.ExitApplicationButton.Name = "ExitApplicationButton";
+			this.ExitApplicationButton.TabStop = false;
 			this.ExitApplicationButton.UseVisualStyleBackColor = false;
 			// 
 			// AnswerA
@@ -210,11 +238,43 @@
 			this.label4.ForeColor = System.Drawing.Color.White;
 			this.label4.Name = "label4";
 			// 
+			// MaxGalkinImage
+			// 
+			this.MaxGalkinImage.Image = global::WhoWantToBeAMillionaire.Properties.Resources.maximGalkin;
+			resources.ApplyResources(this.MaxGalkinImage, "MaxGalkinImage");
+			this.MaxGalkinImage.Name = "MaxGalkinImage";
+			this.MaxGalkinImage.TabStop = false;
+			// 
+			// MaxGalkinCorrectLabel
+			// 
+			resources.ApplyResources(this.MaxGalkinCorrectLabel, "MaxGalkinCorrectLabel");
+			this.MaxGalkinCorrectLabel.BackColor = System.Drawing.Color.Black;
+			this.MaxGalkinCorrectLabel.ForeColor = System.Drawing.Color.White;
+			this.MaxGalkinCorrectLabel.Name = "MaxGalkinCorrectLabel";
+			// 
+			// PopupImageCallHelp
+			// 
+			this.PopupImageCallHelp.Image = global::WhoWantToBeAMillionaire.Properties.Resources.GnomeInGlasses;
+			resources.ApplyResources(this.PopupImageCallHelp, "PopupImageCallHelp");
+			this.PopupImageCallHelp.Name = "PopupImageCallHelp";
+			this.PopupImageCallHelp.TabStop = false;
+			// 
+			// PopupLabelCallHelp
+			// 
+			resources.ApplyResources(this.PopupLabelCallHelp, "PopupLabelCallHelp");
+			this.PopupLabelCallHelp.BackColor = System.Drawing.Color.Black;
+			this.PopupLabelCallHelp.ForeColor = System.Drawing.Color.White;
+			this.PopupLabelCallHelp.Name = "PopupLabelCallHelp";
+			// 
 			// MainWindow
 			// 
 			resources.ApplyResources(this, "$this");
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackgroundImage = global::WhoWantToBeAMillionaire.Properties.Resources.Khsm_logo_big;
+			this.Controls.Add(this.PopupLabelCallHelp);
+			this.Controls.Add(this.PopupImageCallHelp);
+			this.Controls.Add(this.MaxGalkinCorrectLabel);
+			this.Controls.Add(this.MaxGalkinImage);
 			this.Controls.Add(this.label4);
 			this.Controls.Add(this.label3);
 			this.Controls.Add(this.label2);
@@ -227,13 +287,15 @@
 			this.Controls.Add(this.QuestionBox);
 			this.Controls.Add(this.HelpBox);
 			this.Controls.Add(this.menuStrip1);
-			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
 			this.MainMenuStrip = this.menuStrip1;
 			this.Name = "MainWindow";
 			this.menuStrip1.ResumeLayout(false);
 			this.menuStrip1.PerformLayout();
 			this.HelpBox.ResumeLayout(false);
 			this.HelpBox.PerformLayout();
+			((System.ComponentModel.ISupportInitialize)(this.MaxGalkinImage)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PopupImageCallHelp)).EndInit();
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
@@ -262,6 +324,12 @@
 		private System.Windows.Forms.Label label2;
 		private System.Windows.Forms.Label label3;
 		private System.Windows.Forms.Label label4;
+		private System.Windows.Forms.PictureBox MaxGalkinImage;
+		private System.Windows.Forms.Label MaxGalkinCorrectLabel;
+		private System.Windows.Forms.PictureBox PopupImageCallHelp;
+		private System.Windows.Forms.Label PopupLabelCallHelp;
+		private System.Windows.Forms.ToolStripMenuItem редакторВопросовToolStripMenuItem;
+		private System.Windows.Forms.ToolStripMenuItem LoadQuestionsFromFileMenuStripItem;
 	}
 }
 
