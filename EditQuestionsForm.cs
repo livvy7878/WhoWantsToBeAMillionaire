@@ -10,21 +10,28 @@ using System.Windows.Forms;
 
 namespace WhoWantToBeAMillionaire
 {
-	public partial class AddQuestionsForm : Form
+	public partial class EditQuestionsForm : Form
 	{
 		DialogResult dialogRes;
-		public AddQuestionsForm()
+		public EditQuestionsForm()
 		{
 			InitializeComponent();
 			StartPosition = FormStartPosition.CenterParent;
 			SelectFileButton.Click += SelectFileButton_Click;
-			LoadFileButton.Click += LoadFileButton_Click;
+			SaveFileButton.Click += SaveFileButton_Click;
+			LoadToGameButton.Click += LoadToGameButton_Click;
 		}
 
-		private void LoadFileButton_Click(object sender, EventArgs e)
+		private void SaveFileButton_Click(object sender, EventArgs e)
 		{
 			QuestionMaker.MakeFromTextFileXmlQuestions(SelectedFileTextBox.Text);
-			MessageBox.Show("Загружены вопросы из файла");
+			MessageBox.Show("Сохранены вопросы из файла");
+		}
+
+		private void LoadToGameButton_Click(object sender, EventArgs e)
+		{
+			MainWindow parentWindow = Parent as MainWindow;
+			parentWindow.questionsNow = QuestionMaker.LoadQuestions();
 		}
 
 		private void SelectFileButton_Click(object sender, EventArgs e)

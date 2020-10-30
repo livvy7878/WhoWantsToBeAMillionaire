@@ -16,12 +16,12 @@ namespace WhoWantToBeAMillionaire
 			for (int i = 0; i < 15; i++)
 			{
 				List<string> listWithAllAnswers = new List<string>() {
-					allTextInFile[i + 1],
-					allTextInFile[i + 2],
-					allTextInFile[i + 3],
-					allTextInFile[i + 4]
+					allTextInFile[(i*5) + 1],
+					allTextInFile[(i*5) + 2],
+					allTextInFile[(i*5) + 3],
+					allTextInFile[(i*5) + 4]
 				};
-				Question oneQuestionToAdd = new Question(allTextInFile[i], listWithAllAnswers, listWithAllAnswers[0]);
+				Question oneQuestionToAdd = new Question(allTextInFile[i * 5], listWithAllAnswers, listWithAllAnswers[0]);
 				questions.Add(oneQuestionToAdd);
 			}
 			SaveQuestionsInXmlFile(questions);
@@ -36,10 +36,30 @@ namespace WhoWantToBeAMillionaire
 			writer.Close();
 			fileStream.Close();
 		}
+
+		public static List<Question> LoadQuestions()
+		{
+			FileStream fs = null;
+			try
+			{
+				fs = new FileStream("Questions.xml", FileMode.Open);
+			}
+			catch (System.Exception)
+			{
+				MakeFromTextFileXmlQuestions("questions.txt");
+				fs = new FileStream("Questions.xml", FileMode.Open);
+			}
+			XmlDictionaryReader reader = XmlDictionaryReader.CreateTextReader(fs, new XmlDictionaryReaderQuotas());
+			DataContractSerializer serializer = new DataContractSerializer(typeof(List<Question>));
+
+			List<Question> deserializedQuestions = (List<Question>)serializer.ReadObject(reader, true);
+
+			return deserializedQuestions;
+		}
 	}
 
 	[DataContract]
-	struct Question
+	public struct Question
 	{
 		public Question(string askedQuestion, List<string> answers, string correctAnswer)
 		{

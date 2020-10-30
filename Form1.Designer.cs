@@ -34,8 +34,7 @@ namespace WhoWantToBeAMillionaire
 			this.menuStrip1 = new System.Windows.Forms.MenuStrip();
 			this.играToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
 			this.администраторскийРежимToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-			this.редакторВопросовToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-			this.LoadQuestionsFromFileMenuStripItem = new System.Windows.Forms.ToolStripMenuItem();
+			this.EditQuestionsMenuStripItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.оПрограммеToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
 			this.играToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.администраторскийРежимToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -58,6 +57,7 @@ namespace WhoWantToBeAMillionaire
 			this.MaxGalkinCorrectLabel = new System.Windows.Forms.Label();
 			this.PopupImageCallHelp = new System.Windows.Forms.PictureBox();
 			this.PopupLabelCallHelp = new System.Windows.Forms.Label();
+			this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
 			this.menuStrip1.SuspendLayout();
 			this.HelpBox.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.MaxGalkinImage)).BeginInit();
@@ -81,20 +81,14 @@ namespace WhoWantToBeAMillionaire
 			// администраторскийРежимToolStripMenuItem1
 			// 
 			this.администраторскийРежимToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.редакторВопросовToolStripMenuItem,
-            this.LoadQuestionsFromFileMenuStripItem});
+            this.EditQuestionsMenuStripItem});
 			this.администраторскийРежимToolStripMenuItem1.Name = "администраторскийРежимToolStripMenuItem1";
 			resources.ApplyResources(this.администраторскийРежимToolStripMenuItem1, "администраторскийРежимToolStripMenuItem1");
 			// 
-			// редакторВопросовToolStripMenuItem
+			// EditQuestionsMenuStripItem
 			// 
-			this.редакторВопросовToolStripMenuItem.Name = "редакторВопросовToolStripMenuItem";
-			resources.ApplyResources(this.редакторВопросовToolStripMenuItem, "редакторВопросовToolStripMenuItem");
-			// 
-			// LoadQuestionsFromFileMenuStripItem
-			// 
-			this.LoadQuestionsFromFileMenuStripItem.Name = "LoadQuestionsFromFileMenuStripItem";
-			resources.ApplyResources(this.LoadQuestionsFromFileMenuStripItem, "LoadQuestionsFromFileMenuStripItem");
+			this.EditQuestionsMenuStripItem.Name = "EditQuestionsMenuStripItem";
+			resources.ApplyResources(this.EditQuestionsMenuStripItem, "EditQuestionsMenuStripItem");
 			// 
 			// оПрограммеToolStripMenuItem1
 			// 
@@ -328,8 +322,8 @@ namespace WhoWantToBeAMillionaire
 		private System.Windows.Forms.Label MaxGalkinCorrectLabel;
 		private System.Windows.Forms.PictureBox PopupImageCallHelp;
 		private System.Windows.Forms.Label PopupLabelCallHelp;
-		private System.Windows.Forms.ToolStripMenuItem редакторВопросовToolStripMenuItem;
-		private System.Windows.Forms.ToolStripMenuItem LoadQuestionsFromFileMenuStripItem;
+		private System.Windows.Forms.ToolStripMenuItem EditQuestionsMenuStripItem;
+		private System.ComponentModel.BackgroundWorker backgroundWorker1;
 	}
 }
 

@@ -47,11 +47,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddQuestionsForm.cs">
+    <Compile Include="EditQuestionsForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddQuestionsForm.Designer.cs">
-      <DependentUpon>AddQuestionsForm.cs</DependentUpon>
+    <Compile Include="EditQuestionsForm.Designer.cs">
+      <DependentUpon>EditQuestionsForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -67,8 +67,8 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="QuestionMaker.cs" />
-    <EmbeddedResource Include="AddQuestionsForm.resx">
-      <DependentUpon>AddQuestionsForm.cs</DependentUpon>
+    <EmbeddedResource Include="EditQuestionsForm.resx">
+      <DependentUpon>EditQuestionsForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -113,6 +113,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\exitDoor.png" />
+    <None Include="Resources\helpCallPressed.png" />
+    <None Include="Resources\help50x50Pressed.png" />
+    <None Include="Resources\helpGuysPressed.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\Questions\" />

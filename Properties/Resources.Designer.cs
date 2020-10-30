@@ -93,6 +93,16 @@ namespace WhoWantToBeAMillionaire.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap help50x50Pressed {
+            get {
+                object obj = ResourceManager.GetObject("help50x50Pressed", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap helpCall {
             get {
                 object obj = ResourceManager.GetObject("helpCall", resourceCulture);
@@ -103,9 +113,29 @@ namespace WhoWantToBeAMillionaire.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap helpCallPressed {
+            get {
+                object obj = ResourceManager.GetObject("helpCallPressed", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap helpGuys {
             get {
                 object obj = ResourceManager.GetObject("helpGuys", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap helpGuysPressed {
+            get {
+                object obj = ResourceManager.GetObject("helpGuysPressed", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

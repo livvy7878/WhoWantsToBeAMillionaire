@@ -127,11 +127,20 @@
   <data name="help50x50" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\help50x50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="help50x50Pressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\help50x50Pressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="helpCall" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\helpCall.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="helpCallPressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\helpCallPressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="helpGuys" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\helpGuys.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="helpGuysPressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\helpGuysPressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Khsm_logo_big" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Khsm_logo_big.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

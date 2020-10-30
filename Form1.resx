@@ -121,36 +121,6 @@
     <value>30, 17</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="играToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>46, 20</value>
-  </data>
-  <data name="играToolStripMenuItem1.Text" xml:space="preserve">
-    <value>Игра</value>
-  </data>
-  <data name="редакторВопросовToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>233, 22</value>
-  </data>
-  <data name="редакторВопросовToolStripMenuItem.Text" xml:space="preserve">
-    <value>Редактор вопросов</value>
-  </data>
-  <data name="LoadQuestionsFromFileMenuStripItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>233, 22</value>
-  </data>
-  <data name="LoadQuestionsFromFileMenuStripItem.Text" xml:space="preserve">
-    <value>Загрузить вопросы из файла</value>
-  </data>
-  <data name="администраторскийРежимToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>173, 20</value>
-  </data>
-  <data name="администраторскийРежимToolStripMenuItem1.Text" xml:space="preserve">
-    <value>Администраторский режим</value>
-  </data>
-  <data name="оПрограммеToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>94, 20</value>
-  </data>
-  <data name="оПрограммеToolStripMenuItem1.Text" xml:space="preserve">
-    <value>О программе</value>
-  </data>
   <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
@@ -176,6 +146,30 @@
   <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
     <value>15</value>
   </data>
+  <data name="играToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 20</value>
+  </data>
+  <data name="играToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Игра</value>
+  </data>
+  <data name="администраторскийРежимToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 20</value>
+  </data>
+  <data name="администраторскийРежимToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Администраторский режим</value>
+  </data>
+  <data name="EditQuestionsMenuStripItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="EditQuestionsMenuStripItem.Text" xml:space="preserve">
+    <value>Редактор вопросов</value>
+  </data>
+  <data name="оПрограммеToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 20</value>
+  </data>
+  <data name="оПрограммеToolStripMenuItem1.Text" xml:space="preserve">
+    <value>О программе</value>
+  </data>
   <data name="играToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>46, 20</value>
   </data>
@@ -196,6 +190,66 @@
   </data>
   <data name="HelpBox.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="&gt;&gt;HelpGuysButton.Name" xml:space="preserve">
+    <value>HelpGuysButton</value>
+  </data>
+  <data name="&gt;&gt;HelpGuysButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HelpGuysButton.Parent" xml:space="preserve">
+    <value>HelpBox</value>
+  </data>
+  <data name="&gt;&gt;HelpGuysButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;HelpCallButton.Name" xml:space="preserve">
+    <value>HelpCallButton</value>
+  </data>
+  <data name="&gt;&gt;HelpCallButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HelpCallButton.Parent" xml:space="preserve">
+    <value>HelpBox</value>
+  </data>
+  <data name="&gt;&gt;HelpCallButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Help50x50Button.Name" xml:space="preserve">
+    <value>Help50x50Button</value>
+  </data>
+  <data name="&gt;&gt;Help50x50Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Help50x50Button.Parent" xml:space="preserve">
+    <value>HelpBox</value>
+  </data>
+  <data name="&gt;&gt;Help50x50Button.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="HelpBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>976, 27</value>
+  </data>
+  <data name="HelpBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>362, 109</value>
+  </data>
+  <data name="HelpBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="HelpBox.Text" xml:space="preserve">
+    <value>Подсказки</value>
+  </data>
+  <data name="&gt;&gt;HelpBox.Name" xml:space="preserve">
+    <value>HelpBox</value>
+  </data>
+  <data name="&gt;&gt;HelpBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HelpBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;HelpBox.ZOrder" xml:space="preserve">
+    <value>14</value>
   </data>
   <data name="HelpGuysButton.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -268,30 +322,6 @@
   </data>
   <data name="&gt;&gt;Help50x50Button.ZOrder" xml:space="preserve">
     <value>2</value>
-  </data>
-  <data name="HelpBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>976, 27</value>
-  </data>
-  <data name="HelpBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>362, 109</value>
-  </data>
-  <data name="HelpBox.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="HelpBox.Text" xml:space="preserve">
-    <value>Подсказки</value>
-  </data>
-  <data name="&gt;&gt;HelpBox.Name" xml:space="preserve">
-    <value>HelpBox</value>
-  </data>
-  <data name="&gt;&gt;HelpBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;HelpBox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;HelpBox.ZOrder" xml:space="preserve">
-    <value>14</value>
   </data>
   <data name="QuestionBox.Font" type="System.Drawing.Font, System.Drawing">
     <value>Yu Gothic UI Semibold, 26.25pt, style=Bold</value>
@@ -732,6 +762,9 @@
   <data name="&gt;&gt;PopupLabelCallHelp.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <metadata name="backgroundWorker1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>141, 20</value>
+  </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -2317,16 +2350,10 @@
   <data name="&gt;&gt;администраторскийРежимToolStripMenuItem1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;редакторВопросовToolStripMenuItem.Name" xml:space="preserve">
-    <value>редакторВопросовToolStripMenuItem</value>
+  <data name="&gt;&gt;EditQuestionsMenuStripItem.Name" xml:space="preserve">
+    <value>EditQuestionsMenuStripItem</value>
   </data>
-  <data name="&gt;&gt;редакторВопросовToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LoadQuestionsFromFileMenuStripItem.Name" xml:space="preserve">
-    <value>LoadQuestionsFromFileMenuStripItem</value>
-  </data>
-  <data name="&gt;&gt;LoadQuestionsFromFileMenuStripItem.Type" xml:space="preserve">
+  <data name="&gt;&gt;EditQuestionsMenuStripItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;оПрограммеToolStripMenuItem1.Name" xml:space="preserve">
@@ -2352,6 +2379,12 @@
   </data>
   <data name="&gt;&gt;оПрограммеToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;backgroundWorker1.Name" xml:space="preserve">
+    <value>backgroundWorker1</value>
+  </data>
+  <data name="&gt;&gt;backgroundWorker1.Type" xml:space="preserve">
+    <value>System.ComponentModel.BackgroundWorker, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>MainWindow</value>
