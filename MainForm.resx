@@ -118,9 +118,45 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>30, 17</value>
+    <value>266, 17</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ResetGameToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 22</value>
+  </data>
+  <data name="ResetGameToolStripMenuItem.Text" xml:space="preserve">
+    <value>Перезапустить</value>
+  </data>
+  <data name="играToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 20</value>
+  </data>
+  <data name="играToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Игра</value>
+  </data>
+  <data name="EditQuestionsMenuStripItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 22</value>
+  </data>
+  <data name="EditQuestionsMenuStripItem.Text" xml:space="preserve">
+    <value>Редактор вопросов</value>
+  </data>
+  <data name="ChangeQuestionNowToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 22</value>
+  </data>
+  <data name="ChangeQuestionNowToolStripMenuItem.Text" xml:space="preserve">
+    <value>Изменить текущий вопрос</value>
+  </data>
+  <data name="администраторскийРежимToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 20</value>
+  </data>
+  <data name="администраторскийРежимToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Администраторский режим</value>
+  </data>
+  <data name="оПрограммеToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 20</value>
+  </data>
+  <data name="оПрограммеToolStripMenuItem1.Text" xml:space="preserve">
+    <value>О программе</value>
+  </data>
   <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
@@ -144,31 +180,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="играToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>46, 20</value>
-  </data>
-  <data name="играToolStripMenuItem1.Text" xml:space="preserve">
-    <value>Игра</value>
-  </data>
-  <data name="администраторскийРежимToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>173, 20</value>
-  </data>
-  <data name="администраторскийРежимToolStripMenuItem1.Text" xml:space="preserve">
-    <value>Администраторский режим</value>
-  </data>
-  <data name="EditQuestionsMenuStripItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="EditQuestionsMenuStripItem.Text" xml:space="preserve">
-    <value>Редактор вопросов</value>
-  </data>
-  <data name="оПрограммеToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>94, 20</value>
-  </data>
-  <data name="оПрограммеToolStripMenuItem1.Text" xml:space="preserve">
-    <value>О программе</value>
+    <value>19</value>
   </data>
   <data name="играToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>46, 20</value>
@@ -191,71 +203,11 @@
   <data name="HelpBox.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;HelpGuysButton.Name" xml:space="preserve">
-    <value>HelpGuysButton</value>
-  </data>
-  <data name="&gt;&gt;HelpGuysButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;HelpGuysButton.Parent" xml:space="preserve">
-    <value>HelpBox</value>
-  </data>
-  <data name="&gt;&gt;HelpGuysButton.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;HelpCallButton.Name" xml:space="preserve">
-    <value>HelpCallButton</value>
-  </data>
-  <data name="&gt;&gt;HelpCallButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;HelpCallButton.Parent" xml:space="preserve">
-    <value>HelpBox</value>
-  </data>
-  <data name="&gt;&gt;HelpCallButton.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;Help50x50Button.Name" xml:space="preserve">
-    <value>Help50x50Button</value>
-  </data>
-  <data name="&gt;&gt;Help50x50Button.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Help50x50Button.Parent" xml:space="preserve">
-    <value>HelpBox</value>
-  </data>
-  <data name="&gt;&gt;Help50x50Button.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="HelpBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>976, 27</value>
-  </data>
-  <data name="HelpBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>362, 109</value>
-  </data>
-  <data name="HelpBox.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="HelpBox.Text" xml:space="preserve">
-    <value>Подсказки</value>
-  </data>
-  <data name="&gt;&gt;HelpBox.Name" xml:space="preserve">
-    <value>HelpBox</value>
-  </data>
-  <data name="&gt;&gt;HelpBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;HelpBox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;HelpBox.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
   <data name="HelpGuysButton.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="HelpGuysButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>244, 19</value>
+    <value>244, 20</value>
   </data>
   <data name="HelpGuysButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>112, 71</value>
@@ -279,7 +231,7 @@
     <value>True</value>
   </data>
   <data name="HelpCallButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>126, 19</value>
+    <value>126, 20</value>
   </data>
   <data name="HelpCallButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>112, 71</value>
@@ -303,7 +255,7 @@
     <value>True</value>
   </data>
   <data name="Help50x50Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 19</value>
+    <value>8, 20</value>
   </data>
   <data name="Help50x50Button.Size" type="System.Drawing.Size, System.Drawing">
     <value>112, 71</value>
@@ -323,17 +275,41 @@
   <data name="&gt;&gt;Help50x50Button.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="HelpBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>976, 30</value>
+  </data>
+  <data name="HelpBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>362, 110</value>
+  </data>
+  <data name="HelpBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="HelpBox.Text" xml:space="preserve">
+    <value>Подсказки</value>
+  </data>
+  <data name="&gt;&gt;HelpBox.Name" xml:space="preserve">
+    <value>HelpBox</value>
+  </data>
+  <data name="&gt;&gt;HelpBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HelpBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;HelpBox.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
   <data name="QuestionBox.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Yu Gothic UI Semibold, 26.25pt, style=Bold</value>
+    <value>Yu Gothic UI Semibold, 20.25pt, style=Bold</value>
   </data>
   <data name="QuestionBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>382, 409</value>
+    <value>339, 502</value>
   </data>
   <data name="QuestionBox.Multiline" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="QuestionBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>600, 100</value>
+    <value>688, 100</value>
   </data>
   <data name="QuestionBox.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -351,7 +327,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;QuestionBox.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>17</value>
   </data>
   <data name="ExitApplicationButton.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -379,16 +355,16 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;ExitApplicationButton.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>16</value>
   </data>
   <data name="AnswerA.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
+    <value>Popup</value>
   </data>
   <data name="AnswerA.Font" type="System.Drawing.Font, System.Drawing">
     <value>Yu Gothic UI, 12pt</value>
   </data>
   <data name="AnswerA.Location" type="System.Drawing.Point, System.Drawing">
-    <value>382, 515</value>
+    <value>377, 608</value>
   </data>
   <data name="AnswerA.Size" type="System.Drawing.Size, System.Drawing">
     <value>280, 40</value>
@@ -412,10 +388,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;AnswerA.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>15</value>
   </data>
   <data name="AnswerD.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
+    <value>Popup</value>
   </data>
   <data name="AnswerD.Font" type="System.Drawing.Font, System.Drawing">
     <value>Yu Gothic UI, 12pt</value>
@@ -424,7 +400,7 @@
     <value>NoControl</value>
   </data>
   <data name="AnswerD.Location" type="System.Drawing.Point, System.Drawing">
-    <value>702, 565</value>
+    <value>746, 658</value>
   </data>
   <data name="AnswerD.Size" type="System.Drawing.Size, System.Drawing">
     <value>280, 40</value>
@@ -448,10 +424,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;AnswerD.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>14</value>
   </data>
   <data name="AnswerC.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
+    <value>Popup</value>
   </data>
   <data name="AnswerC.Font" type="System.Drawing.Font, System.Drawing">
     <value>Yu Gothic UI, 12pt</value>
@@ -460,7 +436,7 @@
     <value>NoControl</value>
   </data>
   <data name="AnswerC.Location" type="System.Drawing.Point, System.Drawing">
-    <value>382, 565</value>
+    <value>377, 658</value>
   </data>
   <data name="AnswerC.Size" type="System.Drawing.Size, System.Drawing">
     <value>280, 40</value>
@@ -484,10 +460,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;AnswerC.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>13</value>
   </data>
   <data name="AnswerB.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
+    <value>Popup</value>
   </data>
   <data name="AnswerB.Font" type="System.Drawing.Font, System.Drawing">
     <value>Yu Gothic UI, 12pt</value>
@@ -496,7 +472,7 @@
     <value>NoControl</value>
   </data>
   <data name="AnswerB.Location" type="System.Drawing.Point, System.Drawing">
-    <value>702, 515</value>
+    <value>746, 608</value>
   </data>
   <data name="AnswerB.Size" type="System.Drawing.Size, System.Drawing">
     <value>280, 40</value>
@@ -520,139 +496,127 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;AnswerB.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>12</value>
   </data>
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="AnswerALabel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Yu Gothic UI, 18pt</value>
   </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>347, 515</value>
+  <data name="AnswerALabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>339, 608</value>
   </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>35, 32</value>
+  <data name="AnswerALabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 40</value>
   </data>
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+  <data name="AnswerALabel.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
-  <data name="label1.Text" xml:space="preserve">
+  <data name="AnswerALabel.Text" xml:space="preserve">
     <value>A:</value>
   </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
+  <data name="&gt;&gt;AnswerALabel.Name" xml:space="preserve">
+    <value>AnswerALabel</value>
   </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+  <data name="&gt;&gt;AnswerALabel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;AnswerALabel.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>7</value>
+  <data name="&gt;&gt;AnswerALabel.ZOrder" xml:space="preserve">
+    <value>11</value>
   </data>
-  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="AnswerCLabel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Yu Gothic UI, 18pt</value>
   </data>
-  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="AnswerCLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>347, 565</value>
+  <data name="AnswerCLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>339, 658</value>
   </data>
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>35, 32</value>
+  <data name="AnswerCLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 40</value>
   </data>
-  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+  <data name="AnswerCLabel.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
-  <data name="label2.Text" xml:space="preserve">
+  <data name="AnswerCLabel.Text" xml:space="preserve">
     <value>C:</value>
   </data>
-  <data name="&gt;&gt;label2.Name" xml:space="preserve">
-    <value>label2</value>
+  <data name="&gt;&gt;AnswerCLabel.Name" xml:space="preserve">
+    <value>AnswerCLabel</value>
   </data>
-  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+  <data name="&gt;&gt;AnswerCLabel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+  <data name="&gt;&gt;AnswerCLabel.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Yu Gothic UI, 18pt</value>
-  </data>
-  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>665, 565</value>
-  </data>
-  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>37, 32</value>
-  </data>
-  <data name="label3.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>D:</value>
-  </data>
-  <data name="&gt;&gt;label3.Name" xml:space="preserve">
-    <value>label3</value>
-  </data>
-  <data name="&gt;&gt;label3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Yu Gothic UI, 18pt</value>
-  </data>
-  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>668, 515</value>
-  </data>
-  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>34, 32</value>
-  </data>
-  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;AnswerCLabel.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
-  <data name="label4.Text" xml:space="preserve">
-    <value>B:</value>
+  <data name="AnswerDLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI, 18pt</value>
   </data>
-  <data name="&gt;&gt;label4.Name" xml:space="preserve">
-    <value>label4</value>
+  <data name="AnswerDLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+  <data name="AnswerDLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>708, 658</value>
+  </data>
+  <data name="AnswerDLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 40</value>
+  </data>
+  <data name="AnswerDLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="AnswerDLabel.Text" xml:space="preserve">
+    <value>D:</value>
+  </data>
+  <data name="&gt;&gt;AnswerDLabel.Name" xml:space="preserve">
+    <value>AnswerDLabel</value>
+  </data>
+  <data name="&gt;&gt;AnswerDLabel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+  <data name="&gt;&gt;AnswerDLabel.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="&gt;&gt;AnswerDLabel.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="AnswerBLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI, 18pt</value>
+  </data>
+  <data name="AnswerBLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AnswerBLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>708, 608</value>
+  </data>
+  <data name="AnswerBLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 40</value>
+  </data>
+  <data name="AnswerBLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="AnswerBLabel.Text" xml:space="preserve">
+    <value>B:</value>
+  </data>
+  <data name="&gt;&gt;AnswerBLabel.Name" xml:space="preserve">
+    <value>AnswerBLabel</value>
+  </data>
+  <data name="&gt;&gt;AnswerBLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AnswerBLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AnswerBLabel.ZOrder" xml:space="preserve">
+    <value>8</value>
   </data>
   <data name="MaxGalkinImage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>872, 259</value>
+    <value>917, 352</value>
   </data>
   <data name="MaxGalkinImage.Size" type="System.Drawing.Size, System.Drawing">
     <value>110, 144</value>
@@ -673,7 +637,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;MaxGalkinImage.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>7</value>
   </data>
   <data name="MaxGalkinCorrectLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -682,7 +646,7 @@
     <value>Yu Gothic UI Semibold, 24pt, style=Bold</value>
   </data>
   <data name="MaxGalkinCorrectLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>666, 311</value>
+    <value>714, 404</value>
   </data>
   <data name="MaxGalkinCorrectLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 45</value>
@@ -703,13 +667,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;MaxGalkinCorrectLabel.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>6</value>
   </data>
   <data name="PopupImageCallHelp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="PopupImageCallHelp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>162, 184</value>
+    <value>123, 277</value>
   </data>
   <data name="PopupImageCallHelp.Size" type="System.Drawing.Size, System.Drawing">
     <value>220, 219</value>
@@ -730,7 +694,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;PopupImageCallHelp.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>5</value>
   </data>
   <data name="PopupLabelCallHelp.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -739,7 +703,7 @@
     <value>Yu Gothic UI Semibold, 24pt, style=Bold</value>
   </data>
   <data name="PopupLabelCallHelp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>388, 311</value>
+    <value>349, 404</value>
   </data>
   <data name="PopupLabelCallHelp.Size" type="System.Drawing.Size, System.Drawing">
     <value>145, 45</value>
@@ -760,10 +724,462 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;PopupLabelCallHelp.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <metadata name="PopupMaxGalkinBackgroundWorker.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="HelpGuysGroup.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="HelpGuysPercentLabelD.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="HelpGuysPercentLabelD.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="HelpGuysPercentLabelD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 110</value>
+  </data>
+  <data name="HelpGuysPercentLabelD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="HelpGuysPercentLabelD.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;HelpGuysPercentLabelD.Name" xml:space="preserve">
+    <value>HelpGuysPercentLabelD</value>
+  </data>
+  <data name="&gt;&gt;HelpGuysPercentLabelD.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HelpGuysPercentLabelD.Parent" xml:space="preserve">
+    <value>HelpGuysGroup</value>
+  </data>
+  <data name="&gt;&gt;HelpGuysPercentLabelD.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <metadata name="backgroundWorker1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>141, 20</value>
+  <data name="HelpGuysPercentLabelC.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="HelpGuysPercentLabelC.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="HelpGuysPercentLabelC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 80</value>
+  </data>
+  <data name="HelpGuysPercentLabelC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="HelpGuysPercentLabelC.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;HelpGuysPercentLabelC.Name" xml:space="preserve">
+    <value>HelpGuysPercentLabelC</value>
+  </data>
+  <data name="&gt;&gt;HelpGuysPercentLabelC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HelpGuysPercentLabelC.Parent" xml:space="preserve">
+    <value>HelpGuysGroup</value>
+  </data>
+  <data name="&gt;&gt;HelpGuysPercentLabelC.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="HelpGuysPercentLabelB.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="HelpGuysPercentLabelB.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="HelpGuysPercentLabelB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 50</value>
+  </data>
+  <data name="HelpGuysPercentLabelB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="HelpGuysPercentLabelB.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;HelpGuysPercentLabelB.Name" xml:space="preserve">
+    <value>HelpGuysPercentLabelB</value>
+  </data>
+  <data name="&gt;&gt;HelpGuysPercentLabelB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HelpGuysPercentLabelB.Parent" xml:space="preserve">
+    <value>HelpGuysGroup</value>
+  </data>
+  <data name="&gt;&gt;HelpGuysPercentLabelB.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="HelpGuysPercentLabelA.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="HelpGuysPercentLabelA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="HelpGuysPercentLabelA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="HelpGuysPercentLabelA.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;HelpGuysPercentLabelA.Name" xml:space="preserve">
+    <value>HelpGuysPercentLabelA</value>
+  </data>
+  <data name="&gt;&gt;HelpGuysPercentLabelA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HelpGuysPercentLabelA.Parent" xml:space="preserve">
+    <value>HelpGuysGroup</value>
+  </data>
+  <data name="&gt;&gt;HelpGuysPercentLabelA.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="GuysHelpBoxLabelBarD.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="GuysHelpBoxLabelBarD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 110</value>
+  </data>
+  <data name="GuysHelpBoxLabelBarD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="GuysHelpBoxLabelBarD.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;GuysHelpBoxLabelBarD.Name" xml:space="preserve">
+    <value>GuysHelpBoxLabelBarD</value>
+  </data>
+  <data name="&gt;&gt;GuysHelpBoxLabelBarD.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GuysHelpBoxLabelBarD.Parent" xml:space="preserve">
+    <value>HelpGuysGroup</value>
+  </data>
+  <data name="&gt;&gt;GuysHelpBoxLabelBarD.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="GuysHelpBoxLabelBarC.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="GuysHelpBoxLabelBarC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 80</value>
+  </data>
+  <data name="GuysHelpBoxLabelBarC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="GuysHelpBoxLabelBarC.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;GuysHelpBoxLabelBarC.Name" xml:space="preserve">
+    <value>GuysHelpBoxLabelBarC</value>
+  </data>
+  <data name="&gt;&gt;GuysHelpBoxLabelBarC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GuysHelpBoxLabelBarC.Parent" xml:space="preserve">
+    <value>HelpGuysGroup</value>
+  </data>
+  <data name="&gt;&gt;GuysHelpBoxLabelBarC.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="GuysHelpBoxLabelBarB.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="GuysHelpBoxLabelBarB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 50</value>
+  </data>
+  <data name="GuysHelpBoxLabelBarB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="GuysHelpBoxLabelBarB.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;GuysHelpBoxLabelBarB.Name" xml:space="preserve">
+    <value>GuysHelpBoxLabelBarB</value>
+  </data>
+  <data name="&gt;&gt;GuysHelpBoxLabelBarB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GuysHelpBoxLabelBarB.Parent" xml:space="preserve">
+    <value>HelpGuysGroup</value>
+  </data>
+  <data name="&gt;&gt;GuysHelpBoxLabelBarB.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="GuysHelpBoxLabelBarA.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="GuysHelpBoxLabelBarA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 20</value>
+  </data>
+  <data name="GuysHelpBoxLabelBarA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="GuysHelpBoxLabelBarA.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;GuysHelpBoxLabelBarA.Name" xml:space="preserve">
+    <value>GuysHelpBoxLabelBarA</value>
+  </data>
+  <data name="&gt;&gt;GuysHelpBoxLabelBarA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GuysHelpBoxLabelBarA.Parent" xml:space="preserve">
+    <value>HelpGuysGroup</value>
+  </data>
+  <data name="&gt;&gt;GuysHelpBoxLabelBarA.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="GuysHelpBoxLabelD.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GuysHelpBoxLabelD.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="GuysHelpBoxLabelD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 110</value>
+  </data>
+  <data name="GuysHelpBoxLabelD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>18, 13</value>
+  </data>
+  <data name="GuysHelpBoxLabelD.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="GuysHelpBoxLabelD.Text" xml:space="preserve">
+    <value>D:</value>
+  </data>
+  <data name="&gt;&gt;GuysHelpBoxLabelD.Name" xml:space="preserve">
+    <value>GuysHelpBoxLabelD</value>
+  </data>
+  <data name="&gt;&gt;GuysHelpBoxLabelD.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GuysHelpBoxLabelD.Parent" xml:space="preserve">
+    <value>HelpGuysGroup</value>
+  </data>
+  <data name="&gt;&gt;GuysHelpBoxLabelD.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="GuysHelpBoxLabelC.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GuysHelpBoxLabelC.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="GuysHelpBoxLabelC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 80</value>
+  </data>
+  <data name="GuysHelpBoxLabelC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 13</value>
+  </data>
+  <data name="GuysHelpBoxLabelC.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="GuysHelpBoxLabelC.Text" xml:space="preserve">
+    <value>C:</value>
+  </data>
+  <data name="&gt;&gt;GuysHelpBoxLabelC.Name" xml:space="preserve">
+    <value>GuysHelpBoxLabelC</value>
+  </data>
+  <data name="&gt;&gt;GuysHelpBoxLabelC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GuysHelpBoxLabelC.Parent" xml:space="preserve">
+    <value>HelpGuysGroup</value>
+  </data>
+  <data name="&gt;&gt;GuysHelpBoxLabelC.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="GuysHelpBoxLabelB.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GuysHelpBoxLabelB.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="GuysHelpBoxLabelB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 50</value>
+  </data>
+  <data name="GuysHelpBoxLabelB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 13</value>
+  </data>
+  <data name="GuysHelpBoxLabelB.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="GuysHelpBoxLabelB.Text" xml:space="preserve">
+    <value>B:</value>
+  </data>
+  <data name="&gt;&gt;GuysHelpBoxLabelB.Name" xml:space="preserve">
+    <value>GuysHelpBoxLabelB</value>
+  </data>
+  <data name="&gt;&gt;GuysHelpBoxLabelB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GuysHelpBoxLabelB.Parent" xml:space="preserve">
+    <value>HelpGuysGroup</value>
+  </data>
+  <data name="&gt;&gt;GuysHelpBoxLabelB.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="GuysHelpBoxLabelA.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GuysHelpBoxLabelA.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="GuysHelpBoxLabelA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 20</value>
+  </data>
+  <data name="GuysHelpBoxLabelA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 13</value>
+  </data>
+  <data name="GuysHelpBoxLabelA.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GuysHelpBoxLabelA.Text" xml:space="preserve">
+    <value>A:</value>
+  </data>
+  <data name="&gt;&gt;GuysHelpBoxLabelA.Name" xml:space="preserve">
+    <value>GuysHelpBoxLabelA</value>
+  </data>
+  <data name="&gt;&gt;GuysHelpBoxLabelA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GuysHelpBoxLabelA.Parent" xml:space="preserve">
+    <value>HelpGuysGroup</value>
+  </data>
+  <data name="&gt;&gt;GuysHelpBoxLabelA.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="HelpGuysGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>666, 30</value>
+  </data>
+  <data name="HelpGuysGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 139</value>
+  </data>
+  <data name="HelpGuysGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="HelpGuysGroup.Text" xml:space="preserve">
+    <value>Помощь зала</value>
+  </data>
+  <data name="HelpGuysGroup.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;HelpGuysGroup.Name" xml:space="preserve">
+    <value>HelpGuysGroup</value>
+  </data>
+  <data name="&gt;&gt;HelpGuysGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HelpGuysGroup.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;HelpGuysGroup.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="SoundControlButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SoundControlButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SoundControlButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>94, 27</value>
+  </data>
+  <data name="SoundControlButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 76</value>
+  </data>
+  <data name="SoundControlButton.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;SoundControlButton.Name" xml:space="preserve">
+    <value>SoundControlButton</value>
+  </data>
+  <data name="&gt;&gt;SoundControlButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SoundControlButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SoundControlButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="SelectBarRightPanelImage.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="SelectBarRightPanelImage.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAASMAAAAgCAYAAABZwx43AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAeNJREFUeF7t3UFOwkAUgOGe3xu45QAcAGI4gwsiUKCGlQsXgIKaOIzvkWnSmCbA
+        LHTezP8lk1Yl0C7eH2moVgBQjNPpdOecO8r20wMwQ+bWydyOwijbJicy+DgefLOqveyHUwSQOue+fbNc
+        +OPhXWf3Poy0TW2IVqu51618/RXOE4AB+93WLxezdn5tBqknRIPwIwBGaIDe9ju7QSJEQD7MBokQAfkx
+        FyRCBOTLTJAIEZC/5INEiIByJBskQgSUJ7kgESKgXMkEiRAB6AuS976KWfpkj7LTXLPksQtdsr8lRACU
+        BqgbJLGR741ljWR/cs2Sxw61SDdzzvlmXRMiAGfdIOm9bDGqej71MUuDJF7DsQAomLZEVq33sunNtX3N
+        uLSiYrSYTdv6vYRjAVAwjZH8dvSkXdC/0NHXjUsr6m2avmDnelGan8IE8Ge0A+115Oi3afIkQ9n2XlTq
+        WXpBaizruX1hggSUrRsi3YpN6MRtF7Bj/T4AggSUJ5kOECSgXMnNP0ECypPs3BMkoBzJzztBAvJnZs4J
+        EpAvc/NNkID8mJ1rggTkw/w8EyTAvmzmuHsisR8RB/B/srr1S0/gfPPcmn9vDVii86pzq/NrPkQtOZGJ
+        c44SAcbo3IqHMMoAkLuq+gF3+HCH44yoCAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="SelectBarRightPanelImage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1043, 586</value>
+  </data>
+  <data name="SelectBarRightPanelImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>291, 32</value>
+  </data>
+  <data name="SelectBarRightPanelImage.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="SelectBarRightPanelImage.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;SelectBarRightPanelImage.Name" xml:space="preserve">
+    <value>SelectBarRightPanelImage</value>
+  </data>
+  <data name="&gt;&gt;SelectBarRightPanelImage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SelectBarRightPanelImage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SelectBarRightPanelImage.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="WinnerMessageTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>381, 17</value>
+  </metadata>
+  <data name="WinnerMessageImage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 701</value>
+  </data>
+  <data name="WinnerMessageImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1365, 768</value>
+  </data>
+  <data name="WinnerMessageImage.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="WinnerMessageImage.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="WinnerMessageImage.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;WinnerMessageImage.Name" xml:space="preserve">
+    <value>WinnerMessageImage</value>
+  </data>
+  <data name="&gt;&gt;WinnerMessageImage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;WinnerMessageImage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;WinnerMessageImage.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="UserAnswerPauseBackgroundWorker.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>551, 17</value>
   </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -2344,6 +2760,12 @@
   <data name="&gt;&gt;играToolStripMenuItem1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;ResetGameToolStripMenuItem.Name" xml:space="preserve">
+    <value>ResetGameToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;ResetGameToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;администраторскийРежимToolStripMenuItem1.Name" xml:space="preserve">
     <value>администраторскийРежимToolStripMenuItem1</value>
   </data>
@@ -2354,6 +2776,12 @@
     <value>EditQuestionsMenuStripItem</value>
   </data>
   <data name="&gt;&gt;EditQuestionsMenuStripItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ChangeQuestionNowToolStripMenuItem.Name" xml:space="preserve">
+    <value>ChangeQuestionNowToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;ChangeQuestionNowToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;оПрограммеToolStripMenuItem1.Name" xml:space="preserve">
@@ -2380,10 +2808,22 @@
   <data name="&gt;&gt;оПрограммеToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;backgroundWorker1.Name" xml:space="preserve">
-    <value>backgroundWorker1</value>
+  <data name="&gt;&gt;PopupMaxGalkinBackgroundWorker.Name" xml:space="preserve">
+    <value>PopupMaxGalkinBackgroundWorker</value>
   </data>
-  <data name="&gt;&gt;backgroundWorker1.Type" xml:space="preserve">
+  <data name="&gt;&gt;PopupMaxGalkinBackgroundWorker.Type" xml:space="preserve">
+    <value>System.ComponentModel.BackgroundWorker, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;WinnerMessageTimer.Name" xml:space="preserve">
+    <value>WinnerMessageTimer</value>
+  </data>
+  <data name="&gt;&gt;WinnerMessageTimer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UserAnswerPauseBackgroundWorker.Name" xml:space="preserve">
+    <value>UserAnswerPauseBackgroundWorker</value>
+  </data>
+  <data name="&gt;&gt;UserAnswerPauseBackgroundWorker.Type" xml:space="preserve">
     <value>System.ComponentModel.BackgroundWorker, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">

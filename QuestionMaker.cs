@@ -3,6 +3,7 @@ using System.IO;
 using System.Runtime.Serialization;
 using System.Text;
 using System.Xml;
+using WhoWantToBeAMillionaire.Properties;
 
 namespace WhoWantToBeAMillionaire
 {
@@ -27,7 +28,7 @@ namespace WhoWantToBeAMillionaire
 			SaveQuestionsInXmlFile(questions);
 		}
 
-		private static void SaveQuestionsInXmlFile(List<Question> questions)
+		public static void SaveQuestionsInXmlFile(List<Question> questions)
 		{
 			FileStream fileStream = File.Create("Questions.xml");
 			XmlDictionaryWriter writer = XmlDictionaryWriter.CreateTextWriter(fileStream);
@@ -37,23 +38,25 @@ namespace WhoWantToBeAMillionaire
 			fileStream.Close();
 		}
 
-		public static List<Question> LoadQuestions()
+		public static List<Question> LoadQuestions(string fullFilePath)
 		{
-			FileStream fs = null;
+			FileStream fs;
 			try
 			{
-				fs = new FileStream("Questions.xml", FileMode.Open);
+				fs = new FileStream(fullFilePath, FileMode.Open);
 			}
-			catch (System.Exception)
+			catch (System.Exception ex)
 			{
-				MakeFromTextFileXmlQuestions("questions.txt");
-				fs = new FileStream("Questions.xml", FileMode.Open);
+				StreamWriter streamWriter = new StreamWriter("error.log", true);
+				streamWriter.Write(ex.Message);
+				streamWriter.Close();
+				fs = new FileStream(fullFilePath, FileMode.Open);
 			}
 			XmlDictionaryReader reader = XmlDictionaryReader.CreateTextReader(fs, new XmlDictionaryReaderQuotas());
 			DataContractSerializer serializer = new DataContractSerializer(typeof(List<Question>));
 
 			List<Question> deserializedQuestions = (List<Question>)serializer.ReadObject(reader, true);
-
+			fs.Close();
 			return deserializedQuestions;
 		}
 	}
@@ -73,5 +76,10 @@ namespace WhoWantToBeAMillionaire
 		public List<string> Answers { get; set; }
 		[DataMember]
 		public string CorrectAnswer { get; set; }
+
+		public override string ToString()
+		{
+			return AskedQuestion;
+		}
 	}
 }

@@ -61,12 +61,39 @@ namespace WhoWantToBeAMillionaire.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream buttonPressed {
+            get {
+                return ResourceManager.GetStream("buttonPressed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream correctAnswer {
+            get {
+                return ResourceManager.GetStream("correctAnswer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap exitDoor {
             get {
                 object obj = ResourceManager.GetObject("exitDoor", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream gameBegins {
+            get {
+                return ResourceManager.GetStream("gameBegins", resourceCulture);
             }
         }
         
@@ -97,6 +124,15 @@ namespace WhoWantToBeAMillionaire.Properties {
             get {
                 object obj = ResourceManager.GetObject("help50x50Pressed", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream help50x50Sound {
+            get {
+                return ResourceManager.GetStream("help50x50Sound", resourceCulture);
             }
         }
         
@@ -141,6 +177,24 @@ namespace WhoWantToBeAMillionaire.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream helpGuysSound {
+            get {
+                return ResourceManager.GetStream("helpGuysSound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream helpNumberDialedSound {
+            get {
+                return ResourceManager.GetStream("helpNumberDialedSound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap Khsm_logo_big {
@@ -157,6 +211,74 @@ namespace WhoWantToBeAMillionaire.Properties {
             get {
                 object obj = ResourceManager.GetObject("maximGalkin", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap rightEmptyPanel {
+            get {
+                object obj = ResourceManager.GetObject("rightEmptyPanel", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap selectionBar {
+            get {
+                object obj = ResourceManager.GetObject("selectionBar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap soundDown {
+            get {
+                object obj = ResourceManager.GetObject("soundDown", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap soundUp {
+            get {
+                object obj = ResourceManager.GetObject("soundUp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap winImage {
+            get {
+                object obj = ResourceManager.GetObject("winImage", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream winnerSound {
+            get {
+                return ResourceManager.GetStream("winnerSound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream wrongAnswer {
+            get {
+                return ResourceManager.GetStream("wrongAnswer", resourceCulture);
             }
         }
     }

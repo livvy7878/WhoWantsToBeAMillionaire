@@ -118,8 +118,17 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="buttonPressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\answerWaits.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="correctAnswer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\correctAnswer.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="exitDoor" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\exitdoor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gameBegins" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gameBegins.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="GnomeInGlasses" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\GnomeInGlasses.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -129,6 +138,9 @@
   </data>
   <data name="help50x50Pressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\help50x50Pressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="help50x50Sound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\help50x50Sound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="helpCall" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\helpCall.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -142,10 +154,37 @@
   <data name="helpGuysPressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\helpGuysPressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="helpGuysSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\helpGuysSound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="helpNumberDialedSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\numberDialed.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="Khsm_logo_big" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Khsm_logo_big.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="maximGalkin" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\maximGalkin.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rightEmptyPanel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rightEmptyPanel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="selectionBar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\selectionBar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="soundDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\soundDown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="soundUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\soundUp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="winImage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\winImage.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="winnerSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\winnerSound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="wrongAnswer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wrongAnswer.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

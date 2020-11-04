@@ -30,11 +30,14 @@ namespace WhoWantToBeAMillionaire
 		/// </summary>
 		private void InitializeComponent()
 		{
+			this.components = new System.ComponentModel.Container();
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainWindow));
 			this.menuStrip1 = new System.Windows.Forms.MenuStrip();
 			this.играToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+			this.ResetGameToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.администраторскийРежимToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
 			this.EditQuestionsMenuStripItem = new System.Windows.Forms.ToolStripMenuItem();
+			this.ChangeQuestionNowToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.оПрограммеToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
 			this.играToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.администраторскийРежимToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -49,19 +52,40 @@ namespace WhoWantToBeAMillionaire
 			this.AnswerD = new System.Windows.Forms.Button();
 			this.AnswerC = new System.Windows.Forms.Button();
 			this.AnswerB = new System.Windows.Forms.Button();
-			this.label1 = new System.Windows.Forms.Label();
-			this.label2 = new System.Windows.Forms.Label();
-			this.label3 = new System.Windows.Forms.Label();
-			this.label4 = new System.Windows.Forms.Label();
+			this.AnswerALabel = new System.Windows.Forms.Label();
+			this.AnswerCLabel = new System.Windows.Forms.Label();
+			this.AnswerDLabel = new System.Windows.Forms.Label();
+			this.AnswerBLabel = new System.Windows.Forms.Label();
 			this.MaxGalkinImage = new System.Windows.Forms.PictureBox();
 			this.MaxGalkinCorrectLabel = new System.Windows.Forms.Label();
 			this.PopupImageCallHelp = new System.Windows.Forms.PictureBox();
 			this.PopupLabelCallHelp = new System.Windows.Forms.Label();
-			this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+			this.PopupMaxGalkinBackgroundWorker = new System.ComponentModel.BackgroundWorker();
+			this.HelpGuysGroup = new System.Windows.Forms.GroupBox();
+			this.HelpGuysPercentLabelD = new System.Windows.Forms.Label();
+			this.HelpGuysPercentLabelC = new System.Windows.Forms.Label();
+			this.HelpGuysPercentLabelB = new System.Windows.Forms.Label();
+			this.HelpGuysPercentLabelA = new System.Windows.Forms.Label();
+			this.GuysHelpBoxLabelBarD = new System.Windows.Forms.Label();
+			this.GuysHelpBoxLabelBarC = new System.Windows.Forms.Label();
+			this.GuysHelpBoxLabelBarB = new System.Windows.Forms.Label();
+			this.GuysHelpBoxLabelBarA = new System.Windows.Forms.Label();
+			this.GuysHelpBoxLabelD = new System.Windows.Forms.Label();
+			this.GuysHelpBoxLabelC = new System.Windows.Forms.Label();
+			this.GuysHelpBoxLabelB = new System.Windows.Forms.Label();
+			this.GuysHelpBoxLabelA = new System.Windows.Forms.Label();
+			this.SoundControlButton = new System.Windows.Forms.Button();
+			this.SelectBarRightPanelImage = new System.Windows.Forms.PictureBox();
+			this.WinnerMessageTimer = new System.Windows.Forms.Timer(this.components);
+			this.WinnerMessageImage = new System.Windows.Forms.PictureBox();
+			this.UserAnswerPauseBackgroundWorker = new System.ComponentModel.BackgroundWorker();
 			this.menuStrip1.SuspendLayout();
 			this.HelpBox.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.MaxGalkinImage)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.PopupImageCallHelp)).BeginInit();
+			this.HelpGuysGroup.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)(this.SelectBarRightPanelImage)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.WinnerMessageImage)).BeginInit();
 			this.SuspendLayout();
 			// 
 			// menuStrip1
@@ -75,13 +99,21 @@ namespace WhoWantToBeAMillionaire
 			// 
 			// играToolStripMenuItem1
 			// 
+			this.играToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ResetGameToolStripMenuItem});
 			this.играToolStripMenuItem1.Name = "играToolStripMenuItem1";
 			resources.ApplyResources(this.играToolStripMenuItem1, "играToolStripMenuItem1");
+			// 
+			// ResetGameToolStripMenuItem
+			// 
+			this.ResetGameToolStripMenuItem.Name = "ResetGameToolStripMenuItem";
+			resources.ApplyResources(this.ResetGameToolStripMenuItem, "ResetGameToolStripMenuItem");
 			// 
 			// администраторскийРежимToolStripMenuItem1
 			// 
 			this.администраторскийРежимToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.EditQuestionsMenuStripItem});
+            this.EditQuestionsMenuStripItem,
+            this.ChangeQuestionNowToolStripMenuItem});
 			this.администраторскийРежимToolStripMenuItem1.Name = "администраторскийРежимToolStripMenuItem1";
 			resources.ApplyResources(this.администраторскийРежимToolStripMenuItem1, "администраторскийРежимToolStripMenuItem1");
 			// 
@@ -89,6 +121,11 @@ namespace WhoWantToBeAMillionaire
 			// 
 			this.EditQuestionsMenuStripItem.Name = "EditQuestionsMenuStripItem";
 			resources.ApplyResources(this.EditQuestionsMenuStripItem, "EditQuestionsMenuStripItem");
+			// 
+			// ChangeQuestionNowToolStripMenuItem
+			// 
+			this.ChangeQuestionNowToolStripMenuItem.Name = "ChangeQuestionNowToolStripMenuItem";
+			resources.ApplyResources(this.ChangeQuestionNowToolStripMenuItem, "ChangeQuestionNowToolStripMenuItem");
 			// 
 			// оПрограммеToolStripMenuItem1
 			// 
@@ -166,6 +203,7 @@ namespace WhoWantToBeAMillionaire
 			// 
 			resources.ApplyResources(this.ExitApplicationButton, "ExitApplicationButton");
 			this.ExitApplicationButton.BackColor = System.Drawing.Color.Black;
+			this.ExitApplicationButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
 			this.ExitApplicationButton.FlatAppearance.BorderSize = 0;
 			this.ExitApplicationButton.Image = global::WhoWantToBeAMillionaire.Properties.Resources.exitDoor;
 			this.ExitApplicationButton.Name = "ExitApplicationButton";
@@ -204,33 +242,37 @@ namespace WhoWantToBeAMillionaire
 			this.AnswerB.Name = "AnswerB";
 			this.AnswerB.UseVisualStyleBackColor = false;
 			// 
-			// label1
+			// AnswerALabel
 			// 
-			resources.ApplyResources(this.label1, "label1");
-			this.label1.BackColor = System.Drawing.Color.Black;
-			this.label1.ForeColor = System.Drawing.Color.White;
-			this.label1.Name = "label1";
+			this.AnswerALabel.BackColor = System.Drawing.Color.Black;
+			this.AnswerALabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			resources.ApplyResources(this.AnswerALabel, "AnswerALabel");
+			this.AnswerALabel.ForeColor = System.Drawing.Color.White;
+			this.AnswerALabel.Name = "AnswerALabel";
 			// 
-			// label2
+			// AnswerCLabel
 			// 
-			resources.ApplyResources(this.label2, "label2");
-			this.label2.BackColor = System.Drawing.Color.Black;
-			this.label2.ForeColor = System.Drawing.Color.White;
-			this.label2.Name = "label2";
+			this.AnswerCLabel.BackColor = System.Drawing.Color.Black;
+			this.AnswerCLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			resources.ApplyResources(this.AnswerCLabel, "AnswerCLabel");
+			this.AnswerCLabel.ForeColor = System.Drawing.Color.White;
+			this.AnswerCLabel.Name = "AnswerCLabel";
 			// 
-			// label3
+			// AnswerDLabel
 			// 
-			resources.ApplyResources(this.label3, "label3");
-			this.label3.BackColor = System.Drawing.Color.Black;
-			this.label3.ForeColor = System.Drawing.Color.White;
-			this.label3.Name = "label3";
+			this.AnswerDLabel.BackColor = System.Drawing.Color.Black;
+			this.AnswerDLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			resources.ApplyResources(this.AnswerDLabel, "AnswerDLabel");
+			this.AnswerDLabel.ForeColor = System.Drawing.Color.White;
+			this.AnswerDLabel.Name = "AnswerDLabel";
 			// 
-			// label4
+			// AnswerBLabel
 			// 
-			resources.ApplyResources(this.label4, "label4");
-			this.label4.BackColor = System.Drawing.Color.Black;
-			this.label4.ForeColor = System.Drawing.Color.White;
-			this.label4.Name = "label4";
+			this.AnswerBLabel.BackColor = System.Drawing.Color.Black;
+			this.AnswerBLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			resources.ApplyResources(this.AnswerBLabel, "AnswerBLabel");
+			this.AnswerBLabel.ForeColor = System.Drawing.Color.White;
+			this.AnswerBLabel.Name = "AnswerBLabel";
 			// 
 			// MaxGalkinImage
 			// 
@@ -248,6 +290,7 @@ namespace WhoWantToBeAMillionaire
 			// 
 			// PopupImageCallHelp
 			// 
+			this.PopupImageCallHelp.BackColor = System.Drawing.Color.Transparent;
 			this.PopupImageCallHelp.Image = global::WhoWantToBeAMillionaire.Properties.Resources.GnomeInGlasses;
 			resources.ApplyResources(this.PopupImageCallHelp, "PopupImageCallHelp");
 			this.PopupImageCallHelp.Name = "PopupImageCallHelp";
@@ -260,19 +303,138 @@ namespace WhoWantToBeAMillionaire
 			this.PopupLabelCallHelp.ForeColor = System.Drawing.Color.White;
 			this.PopupLabelCallHelp.Name = "PopupLabelCallHelp";
 			// 
+			// HelpGuysGroup
+			// 
+			resources.ApplyResources(this.HelpGuysGroup, "HelpGuysGroup");
+			this.HelpGuysGroup.BackColor = System.Drawing.Color.Purple;
+			this.HelpGuysGroup.Controls.Add(this.HelpGuysPercentLabelD);
+			this.HelpGuysGroup.Controls.Add(this.HelpGuysPercentLabelC);
+			this.HelpGuysGroup.Controls.Add(this.HelpGuysPercentLabelB);
+			this.HelpGuysGroup.Controls.Add(this.HelpGuysPercentLabelA);
+			this.HelpGuysGroup.Controls.Add(this.GuysHelpBoxLabelBarD);
+			this.HelpGuysGroup.Controls.Add(this.GuysHelpBoxLabelBarC);
+			this.HelpGuysGroup.Controls.Add(this.GuysHelpBoxLabelBarB);
+			this.HelpGuysGroup.Controls.Add(this.GuysHelpBoxLabelBarA);
+			this.HelpGuysGroup.Controls.Add(this.GuysHelpBoxLabelD);
+			this.HelpGuysGroup.Controls.Add(this.GuysHelpBoxLabelC);
+			this.HelpGuysGroup.Controls.Add(this.GuysHelpBoxLabelB);
+			this.HelpGuysGroup.Controls.Add(this.GuysHelpBoxLabelA);
+			this.HelpGuysGroup.ForeColor = System.Drawing.Color.White;
+			this.HelpGuysGroup.Name = "HelpGuysGroup";
+			this.HelpGuysGroup.TabStop = false;
+			// 
+			// HelpGuysPercentLabelD
+			// 
+			resources.ApplyResources(this.HelpGuysPercentLabelD, "HelpGuysPercentLabelD");
+			this.HelpGuysPercentLabelD.Name = "HelpGuysPercentLabelD";
+			// 
+			// HelpGuysPercentLabelC
+			// 
+			resources.ApplyResources(this.HelpGuysPercentLabelC, "HelpGuysPercentLabelC");
+			this.HelpGuysPercentLabelC.Name = "HelpGuysPercentLabelC";
+			// 
+			// HelpGuysPercentLabelB
+			// 
+			resources.ApplyResources(this.HelpGuysPercentLabelB, "HelpGuysPercentLabelB");
+			this.HelpGuysPercentLabelB.Name = "HelpGuysPercentLabelB";
+			// 
+			// HelpGuysPercentLabelA
+			// 
+			resources.ApplyResources(this.HelpGuysPercentLabelA, "HelpGuysPercentLabelA");
+			this.HelpGuysPercentLabelA.Name = "HelpGuysPercentLabelA";
+			// 
+			// GuysHelpBoxLabelBarD
+			// 
+			this.GuysHelpBoxLabelBarD.BackColor = System.Drawing.Color.DeepSkyBlue;
+			resources.ApplyResources(this.GuysHelpBoxLabelBarD, "GuysHelpBoxLabelBarD");
+			this.GuysHelpBoxLabelBarD.Name = "GuysHelpBoxLabelBarD";
+			// 
+			// GuysHelpBoxLabelBarC
+			// 
+			this.GuysHelpBoxLabelBarC.BackColor = System.Drawing.Color.DeepSkyBlue;
+			resources.ApplyResources(this.GuysHelpBoxLabelBarC, "GuysHelpBoxLabelBarC");
+			this.GuysHelpBoxLabelBarC.Name = "GuysHelpBoxLabelBarC";
+			// 
+			// GuysHelpBoxLabelBarB
+			// 
+			this.GuysHelpBoxLabelBarB.BackColor = System.Drawing.Color.DeepSkyBlue;
+			resources.ApplyResources(this.GuysHelpBoxLabelBarB, "GuysHelpBoxLabelBarB");
+			this.GuysHelpBoxLabelBarB.Name = "GuysHelpBoxLabelBarB";
+			// 
+			// GuysHelpBoxLabelBarA
+			// 
+			this.GuysHelpBoxLabelBarA.BackColor = System.Drawing.Color.DeepSkyBlue;
+			resources.ApplyResources(this.GuysHelpBoxLabelBarA, "GuysHelpBoxLabelBarA");
+			this.GuysHelpBoxLabelBarA.Name = "GuysHelpBoxLabelBarA";
+			// 
+			// GuysHelpBoxLabelD
+			// 
+			resources.ApplyResources(this.GuysHelpBoxLabelD, "GuysHelpBoxLabelD");
+			this.GuysHelpBoxLabelD.Name = "GuysHelpBoxLabelD";
+			// 
+			// GuysHelpBoxLabelC
+			// 
+			resources.ApplyResources(this.GuysHelpBoxLabelC, "GuysHelpBoxLabelC");
+			this.GuysHelpBoxLabelC.Name = "GuysHelpBoxLabelC";
+			// 
+			// GuysHelpBoxLabelB
+			// 
+			resources.ApplyResources(this.GuysHelpBoxLabelB, "GuysHelpBoxLabelB");
+			this.GuysHelpBoxLabelB.Name = "GuysHelpBoxLabelB";
+			// 
+			// GuysHelpBoxLabelA
+			// 
+			resources.ApplyResources(this.GuysHelpBoxLabelA, "GuysHelpBoxLabelA");
+			this.GuysHelpBoxLabelA.Name = "GuysHelpBoxLabelA";
+			// 
+			// SoundControlButton
+			// 
+			resources.ApplyResources(this.SoundControlButton, "SoundControlButton");
+			this.SoundControlButton.BackColor = System.Drawing.Color.Black;
+			this.SoundControlButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+			this.SoundControlButton.FlatAppearance.BorderSize = 0;
+			this.SoundControlButton.Image = global::WhoWantToBeAMillionaire.Properties.Resources.soundUp;
+			this.SoundControlButton.Name = "SoundControlButton";
+			this.SoundControlButton.TabStop = false;
+			this.SoundControlButton.UseVisualStyleBackColor = false;
+			// 
+			// SelectBarRightPanelImage
+			// 
+			this.SelectBarRightPanelImage.BackColor = System.Drawing.Color.Transparent;
+			resources.ApplyResources(this.SelectBarRightPanelImage, "SelectBarRightPanelImage");
+			this.SelectBarRightPanelImage.Name = "SelectBarRightPanelImage";
+			this.SelectBarRightPanelImage.TabStop = false;
+			// 
+			// WinnerMessageImage
+			// 
+			this.WinnerMessageImage.Image = global::WhoWantToBeAMillionaire.Properties.Resources.winImage;
+			resources.ApplyResources(this.WinnerMessageImage, "WinnerMessageImage");
+			this.WinnerMessageImage.Name = "WinnerMessageImage";
+			this.WinnerMessageImage.TabStop = false;
+			// 
+			// UserAnswerPauseBackgroundWorker
+			// 
+			this.UserAnswerPauseBackgroundWorker.WorkerReportsProgress = true;
+			this.UserAnswerPauseBackgroundWorker.WorkerSupportsCancellation = true;
+			// 
 			// MainWindow
 			// 
 			resources.ApplyResources(this, "$this");
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackgroundImage = global::WhoWantToBeAMillionaire.Properties.Resources.Khsm_logo_big;
+			this.CancelButton = this.ExitApplicationButton;
+			this.Controls.Add(this.WinnerMessageImage);
+			this.Controls.Add(this.SelectBarRightPanelImage);
+			this.Controls.Add(this.SoundControlButton);
+			this.Controls.Add(this.HelpGuysGroup);
 			this.Controls.Add(this.PopupLabelCallHelp);
 			this.Controls.Add(this.PopupImageCallHelp);
 			this.Controls.Add(this.MaxGalkinCorrectLabel);
 			this.Controls.Add(this.MaxGalkinImage);
-			this.Controls.Add(this.label4);
-			this.Controls.Add(this.label3);
-			this.Controls.Add(this.label2);
-			this.Controls.Add(this.label1);
+			this.Controls.Add(this.AnswerBLabel);
+			this.Controls.Add(this.AnswerDLabel);
+			this.Controls.Add(this.AnswerCLabel);
+			this.Controls.Add(this.AnswerALabel);
 			this.Controls.Add(this.AnswerB);
 			this.Controls.Add(this.AnswerC);
 			this.Controls.Add(this.AnswerD);
@@ -281,15 +443,21 @@ namespace WhoWantToBeAMillionaire
 			this.Controls.Add(this.QuestionBox);
 			this.Controls.Add(this.HelpBox);
 			this.Controls.Add(this.menuStrip1);
-			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+			this.KeyPreview = true;
 			this.MainMenuStrip = this.menuStrip1;
 			this.Name = "MainWindow";
+			this.Load += new System.EventHandler(this.MainWindow_Load);
 			this.menuStrip1.ResumeLayout(false);
 			this.menuStrip1.PerformLayout();
 			this.HelpBox.ResumeLayout(false);
 			this.HelpBox.PerformLayout();
 			((System.ComponentModel.ISupportInitialize)(this.MaxGalkinImage)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.PopupImageCallHelp)).EndInit();
+			this.HelpGuysGroup.ResumeLayout(false);
+			this.HelpGuysGroup.PerformLayout();
+			((System.ComponentModel.ISupportInitialize)(this.SelectBarRightPanelImage)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.WinnerMessageImage)).EndInit();
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
@@ -314,16 +482,36 @@ namespace WhoWantToBeAMillionaire
 		private System.Windows.Forms.Button AnswerD;
 		private System.Windows.Forms.Button AnswerC;
 		private System.Windows.Forms.Button AnswerB;
-		private System.Windows.Forms.Label label1;
-		private System.Windows.Forms.Label label2;
-		private System.Windows.Forms.Label label3;
-		private System.Windows.Forms.Label label4;
+		private System.Windows.Forms.Label AnswerALabel;
+		private System.Windows.Forms.Label AnswerCLabel;
+		private System.Windows.Forms.Label AnswerDLabel;
+		private System.Windows.Forms.Label AnswerBLabel;
 		private System.Windows.Forms.PictureBox MaxGalkinImage;
 		private System.Windows.Forms.Label MaxGalkinCorrectLabel;
 		private System.Windows.Forms.PictureBox PopupImageCallHelp;
 		private System.Windows.Forms.Label PopupLabelCallHelp;
 		private System.Windows.Forms.ToolStripMenuItem EditQuestionsMenuStripItem;
-		private System.ComponentModel.BackgroundWorker backgroundWorker1;
+		private System.ComponentModel.BackgroundWorker PopupMaxGalkinBackgroundWorker;
+		private System.Windows.Forms.GroupBox HelpGuysGroup;
+		private System.Windows.Forms.Label GuysHelpBoxLabelBarA;
+		private System.Windows.Forms.Label GuysHelpBoxLabelD;
+		private System.Windows.Forms.Label GuysHelpBoxLabelC;
+		private System.Windows.Forms.Label GuysHelpBoxLabelB;
+		private System.Windows.Forms.Label GuysHelpBoxLabelA;
+		private System.Windows.Forms.Label GuysHelpBoxLabelBarD;
+		private System.Windows.Forms.Label GuysHelpBoxLabelBarC;
+		private System.Windows.Forms.Label GuysHelpBoxLabelBarB;
+		private System.Windows.Forms.Label HelpGuysPercentLabelA;
+		private System.Windows.Forms.Label HelpGuysPercentLabelD;
+		private System.Windows.Forms.Label HelpGuysPercentLabelC;
+		private System.Windows.Forms.Label HelpGuysPercentLabelB;
+		private System.Windows.Forms.ToolStripMenuItem ResetGameToolStripMenuItem;
+		private System.Windows.Forms.Button SoundControlButton;
+		private System.Windows.Forms.PictureBox SelectBarRightPanelImage;
+		private System.Windows.Forms.Timer WinnerMessageTimer;
+		private System.Windows.Forms.PictureBox WinnerMessageImage;
+		private System.Windows.Forms.ToolStripMenuItem ChangeQuestionNowToolStripMenuItem;
+		private System.ComponentModel.BackgroundWorker UserAnswerPauseBackgroundWorker;
 	}
 }
 
