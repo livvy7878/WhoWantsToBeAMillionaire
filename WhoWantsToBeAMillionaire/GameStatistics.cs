@@ -4,9 +4,9 @@ using System.IO;
 using System.Runtime.CompilerServices;
 using System.Runtime.Serialization;
 using System.Xml;
-using WhoWantToBeAMillionaire.Properties;
+using WhoWantsToBeAMillionaire.Properties;
 
-namespace WhoWantToBeAMillionaire
+namespace WhoWantsToBeAMillionaire
 {
 	[DataContract]
 	public class GameStatistics
@@ -21,6 +21,8 @@ namespace WhoWantToBeAMillionaire
 		public int IndexInQuestions { get; set; }
 		[DataMember]
 		public List<string> randomizedOrderOfAnswers { get; set; }
+		[DataMember]
+		public bool HelpUsedAtThisQuestion { get; set; }
 		[DataMember]
 		public bool IsHelp50x50ButtonPressed { get; set; }
 		[DataMember]

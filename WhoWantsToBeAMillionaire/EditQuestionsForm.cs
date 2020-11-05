@@ -1,9 +1,9 @@
 ﻿using System;
 using System.IO;
 using System.Windows.Forms;
-using WhoWantToBeAMillionaire.Properties;
+using WhoWantsToBeAMillionaire.Properties;
 
-namespace WhoWantToBeAMillionaire
+namespace WhoWantsToBeAMillionaire
 {
 	public partial class EditQuestionsForm : Form
 	{

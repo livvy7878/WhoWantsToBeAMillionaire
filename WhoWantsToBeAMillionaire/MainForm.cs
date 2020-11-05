@@ -5,9 +5,9 @@ using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using WhoWantToBeAMillionaire.Properties;
+using WhoWantsToBeAMillionaire.Properties;
 
-namespace WhoWantToBeAMillionaire
+namespace WhoWantsToBeAMillionaire
 {
 	public partial class MainWindow : Form
 	{
@@ -42,6 +42,14 @@ namespace WhoWantToBeAMillionaire
 			KeyUp += MainWindow_KeyUp;
 			ResetGameToolStripMenuItem.Click += ResetGameToolStripMenuItem_Click;
 			ChangeQuestionNowToolStripMenuItem.Click += ChangeQuestionNowToolStripMenuItem_Click;
+			AboutProgramToolStrip.Click += AboutProgramToolStrip_Click;
+
+			//WindowState = FormWindowState.Minimized;
+		}
+
+		private void AboutProgramToolStrip_Click(object sender, EventArgs e)
+		{
+			MessageBox.Show("2020 year\ngithub livvy7878", "Кто хочет стать миллионером?");
 		}
 
 		private void AnswerButton_BackColorChanged(object sender, EventArgs e)
@@ -169,7 +177,7 @@ namespace WhoWantToBeAMillionaire
 
 		private void HelpGuysButton_Click(object sender, EventArgs e)
 		{
-			if (StatisticsNow.IsHelpGuysButtonPressed)
+			if (StatisticsNow.IsHelpGuysButtonPressed || StatisticsNow.HelpUsedAtThisQuestion)
 			{
 				return;
 			}
@@ -195,11 +203,13 @@ namespace WhoWantToBeAMillionaire
 			int labelIndex = rand.Next(0, 4);
 			int valNow = percentLeft + int.Parse(labelsWithPercent[labelIndex].Text);
 			labelsWithPercent[labelIndex].Text = valNow.ToString();
+
+			StatisticsNow.HelpUsedAtThisQuestion = true;
 		}
 
 		private void HelpCallButton_Click(object sender, EventArgs e)
 		{
-			if (StatisticsNow.IsHelpCallButtonPressed)
+			if (StatisticsNow.IsHelpCallButtonPressed || StatisticsNow.HelpUsedAtThisQuestion)
 			{
 				return;
 			}
@@ -224,11 +234,13 @@ namespace WhoWantToBeAMillionaire
 			}
 			PopupLabelCallHelp.Visible = true;
 			PopupImageCallHelp.Visible = true;
+
+			StatisticsNow.HelpUsedAtThisQuestion = true;
 		}
 
 		private void Help50x50Button_Click(object sender, EventArgs e)
 		{
-			if (StatisticsNow.IsHelp50x50ButtonPressed)
+			if (StatisticsNow.IsHelp50x50ButtonPressed || StatisticsNow.HelpUsedAtThisQuestion)
 			{
 				return;
 			}
@@ -256,6 +268,8 @@ namespace WhoWantToBeAMillionaire
 			buttons.RemoveAt(rand.Next(0, 2));
 			buttons[0].Enabled = false;
 			buttons[1].Enabled = false;
+
+			StatisticsNow.HelpUsedAtThisQuestion = true;
 		}
 
 		private void UserAnswerButtonClickEventHandler(object sender, EventArgs e)
@@ -387,6 +401,7 @@ namespace WhoWantToBeAMillionaire
 
 		public void MoveToQuestion(int questionNumber)
 		{
+			StatisticsNow.HelpUsedAtThisQuestion = false;
 			StatisticsNow.IndexInQuestions = questionNumber;
 			ResetUiAfterStep();
 			QuestionBox.Text = StatisticsNow.QuestionsNow[StatisticsNow.IndexInQuestions].AskedQuestion;

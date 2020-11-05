@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{498969FD-3C1A-44BD-BBE6-5C56C12C76FB}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>WhoWantToBeAMillionaire</RootNamespace>
-    <AssemblyName>WhoWantToBeAMillionaire</AssemblyName>
+    <RootNamespace>WhoWantsToBeAMillionaire</RootNamespace>
+    <AssemblyName>WhoWantsToBeAMillionaire</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

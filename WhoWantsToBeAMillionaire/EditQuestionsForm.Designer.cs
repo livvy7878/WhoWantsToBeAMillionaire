@@ -1,4 +1,4 @@
-﻿namespace WhoWantToBeAMillionaire
+﻿namespace WhoWantsToBeAMillionaire
 {
 	partial class EditQuestionsForm
 	{

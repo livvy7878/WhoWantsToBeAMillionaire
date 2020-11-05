@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WhoWantToBeAMillionaire.Properties {
+namespace WhoWantsToBeAMillionaire.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]

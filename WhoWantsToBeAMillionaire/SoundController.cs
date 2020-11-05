@@ -6,9 +6,9 @@ using System.Media;
 using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
-using WhoWantToBeAMillionaire.Properties;
+using WhoWantsToBeAMillionaire.Properties;
 
-namespace WhoWantToBeAMillionaire
+namespace WhoWantsToBeAMillionaire
 {
 	static class SoundController
 	{

@@ -1,6 +1,6 @@
-﻿using WhoWantToBeAMillionaire.Properties;
+﻿using WhoWantsToBeAMillionaire.Properties;
 
-namespace WhoWantToBeAMillionaire
+namespace WhoWantsToBeAMillionaire
 {
 	partial class MainWindow
 	{
@@ -38,7 +38,7 @@ namespace WhoWantToBeAMillionaire
 			this.администраторскийРежимToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
 			this.EditQuestionsMenuStripItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.ChangeQuestionNowToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-			this.оПрограммеToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+			this.AboutProgramToolStrip = new System.Windows.Forms.ToolStripMenuItem();
 			this.играToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.администраторскийРежимToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.оПрограммеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -91,16 +91,16 @@ namespace WhoWantToBeAMillionaire
 			// menuStrip1
 			// 
 			this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.играToolStripMenuItem1,
-            this.администраторскийРежимToolStripMenuItem1,
-            this.оПрограммеToolStripMenuItem1});
+			this.играToolStripMenuItem1,
+			this.администраторскийРежимToolStripMenuItem1,
+			this.AboutProgramToolStrip});
 			resources.ApplyResources(this.menuStrip1, "menuStrip1");
 			this.menuStrip1.Name = "menuStrip1";
 			// 
 			// играToolStripMenuItem1
 			// 
 			this.играToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ResetGameToolStripMenuItem});
+			this.ResetGameToolStripMenuItem});
 			this.играToolStripMenuItem1.Name = "играToolStripMenuItem1";
 			resources.ApplyResources(this.играToolStripMenuItem1, "играToolStripMenuItem1");
 			// 
@@ -112,8 +112,8 @@ namespace WhoWantToBeAMillionaire
 			// администраторскийРежимToolStripMenuItem1
 			// 
 			this.администраторскийРежимToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.EditQuestionsMenuStripItem,
-            this.ChangeQuestionNowToolStripMenuItem});
+			this.EditQuestionsMenuStripItem,
+			this.ChangeQuestionNowToolStripMenuItem});
 			this.администраторскийРежимToolStripMenuItem1.Name = "администраторскийРежимToolStripMenuItem1";
 			resources.ApplyResources(this.администраторскийРежимToolStripMenuItem1, "администраторскийРежимToolStripMenuItem1");
 			// 
@@ -127,10 +127,10 @@ namespace WhoWantToBeAMillionaire
 			this.ChangeQuestionNowToolStripMenuItem.Name = "ChangeQuestionNowToolStripMenuItem";
 			resources.ApplyResources(this.ChangeQuestionNowToolStripMenuItem, "ChangeQuestionNowToolStripMenuItem");
 			// 
-			// оПрограммеToolStripMenuItem1
+			// AboutProgramToolStrip
 			// 
-			this.оПрограммеToolStripMenuItem1.Name = "оПрограммеToolStripMenuItem1";
-			resources.ApplyResources(this.оПрограммеToolStripMenuItem1, "оПрограммеToolStripMenuItem1");
+			this.AboutProgramToolStrip.Name = "AboutProgramToolStrip";
+			resources.ApplyResources(this.AboutProgramToolStrip, "AboutProgramToolStrip");
 			// 
 			// играToolStripMenuItem
 			// 
@@ -163,7 +163,7 @@ namespace WhoWantToBeAMillionaire
 			resources.ApplyResources(this.HelpGuysButton, "HelpGuysButton");
 			this.HelpGuysButton.BackColor = System.Drawing.Color.Black;
 			this.HelpGuysButton.FlatAppearance.BorderSize = 0;
-			this.HelpGuysButton.Image = global::WhoWantToBeAMillionaire.Properties.Resources.helpGuys;
+			this.HelpGuysButton.Image = global::WhoWantsToBeAMillionaire.Properties.Resources.helpGuys;
 			this.HelpGuysButton.Name = "HelpGuysButton";
 			this.HelpGuysButton.TabStop = false;
 			this.HelpGuysButton.UseVisualStyleBackColor = false;
@@ -173,7 +173,7 @@ namespace WhoWantToBeAMillionaire
 			resources.ApplyResources(this.HelpCallButton, "HelpCallButton");
 			this.HelpCallButton.BackColor = System.Drawing.Color.Black;
 			this.HelpCallButton.FlatAppearance.BorderSize = 0;
-			this.HelpCallButton.Image = global::WhoWantToBeAMillionaire.Properties.Resources.helpCall;
+			this.HelpCallButton.Image = global::WhoWantsToBeAMillionaire.Properties.Resources.helpCall;
 			this.HelpCallButton.Name = "HelpCallButton";
 			this.HelpCallButton.TabStop = false;
 			this.HelpCallButton.UseVisualStyleBackColor = false;
@@ -183,7 +183,7 @@ namespace WhoWantToBeAMillionaire
 			resources.ApplyResources(this.Help50x50Button, "Help50x50Button");
 			this.Help50x50Button.BackColor = System.Drawing.Color.Black;
 			this.Help50x50Button.FlatAppearance.BorderSize = 0;
-			this.Help50x50Button.Image = global::WhoWantToBeAMillionaire.Properties.Resources.help50x50;
+			this.Help50x50Button.Image = global::WhoWantsToBeAMillionaire.Properties.Resources.help50x50;
 			this.Help50x50Button.Name = "Help50x50Button";
 			this.Help50x50Button.TabStop = false;
 			this.Help50x50Button.UseVisualStyleBackColor = false;
@@ -205,7 +205,7 @@ namespace WhoWantToBeAMillionaire
 			this.ExitApplicationButton.BackColor = System.Drawing.Color.Black;
 			this.ExitApplicationButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
 			this.ExitApplicationButton.FlatAppearance.BorderSize = 0;
-			this.ExitApplicationButton.Image = global::WhoWantToBeAMillionaire.Properties.Resources.exitDoor;
+			this.ExitApplicationButton.Image = global::WhoWantsToBeAMillionaire.Properties.Resources.exitDoor;
 			this.ExitApplicationButton.Name = "ExitApplicationButton";
 			this.ExitApplicationButton.TabStop = false;
 			this.ExitApplicationButton.UseVisualStyleBackColor = false;
@@ -276,7 +276,7 @@ namespace WhoWantToBeAMillionaire
 			// 
 			// MaxGalkinImage
 			// 
-			this.MaxGalkinImage.Image = global::WhoWantToBeAMillionaire.Properties.Resources.maximGalkin;
+			this.MaxGalkinImage.Image = global::WhoWantsToBeAMillionaire.Properties.Resources.maximGalkin;
 			resources.ApplyResources(this.MaxGalkinImage, "MaxGalkinImage");
 			this.MaxGalkinImage.Name = "MaxGalkinImage";
 			this.MaxGalkinImage.TabStop = false;
@@ -291,7 +291,7 @@ namespace WhoWantToBeAMillionaire
 			// PopupImageCallHelp
 			// 
 			this.PopupImageCallHelp.BackColor = System.Drawing.Color.Transparent;
-			this.PopupImageCallHelp.Image = global::WhoWantToBeAMillionaire.Properties.Resources.GnomeInGlasses;
+			this.PopupImageCallHelp.Image = global::WhoWantsToBeAMillionaire.Properties.Resources.GnomeInGlasses;
 			resources.ApplyResources(this.PopupImageCallHelp, "PopupImageCallHelp");
 			this.PopupImageCallHelp.Name = "PopupImageCallHelp";
 			this.PopupImageCallHelp.TabStop = false;
@@ -393,7 +393,7 @@ namespace WhoWantToBeAMillionaire
 			this.SoundControlButton.BackColor = System.Drawing.Color.Black;
 			this.SoundControlButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
 			this.SoundControlButton.FlatAppearance.BorderSize = 0;
-			this.SoundControlButton.Image = global::WhoWantToBeAMillionaire.Properties.Resources.soundUp;
+			this.SoundControlButton.Image = global::WhoWantsToBeAMillionaire.Properties.Resources.soundUp;
 			this.SoundControlButton.Name = "SoundControlButton";
 			this.SoundControlButton.TabStop = false;
 			this.SoundControlButton.UseVisualStyleBackColor = false;
@@ -407,7 +407,7 @@ namespace WhoWantToBeAMillionaire
 			// 
 			// WinnerMessageImage
 			// 
-			this.WinnerMessageImage.Image = global::WhoWantToBeAMillionaire.Properties.Resources.winImage;
+			this.WinnerMessageImage.Image = global::WhoWantsToBeAMillionaire.Properties.Resources.winImage;
 			resources.ApplyResources(this.WinnerMessageImage, "WinnerMessageImage");
 			this.WinnerMessageImage.Name = "WinnerMessageImage";
 			this.WinnerMessageImage.TabStop = false;
@@ -421,7 +421,7 @@ namespace WhoWantToBeAMillionaire
 			// 
 			resources.ApplyResources(this, "$this");
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.BackgroundImage = global::WhoWantToBeAMillionaire.Properties.Resources.Khsm_logo_big;
+			this.BackgroundImage = global::WhoWantsToBeAMillionaire.Properties.Resources.Khsm_logo_big;
 			this.CancelButton = this.ExitApplicationButton;
 			this.Controls.Add(this.WinnerMessageImage);
 			this.Controls.Add(this.SelectBarRightPanelImage);
@@ -475,7 +475,7 @@ namespace WhoWantToBeAMillionaire
 		private System.Windows.Forms.Button HelpCallButton;
 		private System.Windows.Forms.ToolStripMenuItem играToolStripMenuItem1;
 		private System.Windows.Forms.ToolStripMenuItem администраторскийРежимToolStripMenuItem1;
-		private System.Windows.Forms.ToolStripMenuItem оПрограммеToolStripMenuItem1;
+		private System.Windows.Forms.ToolStripMenuItem AboutProgramToolStrip;
 		private System.Windows.Forms.TextBox QuestionBox;
 		private System.Windows.Forms.Button ExitApplicationButton;
 		private System.Windows.Forms.Button AnswerA;

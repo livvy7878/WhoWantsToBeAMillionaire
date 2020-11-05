@@ -151,10 +151,10 @@
   <data name="администраторскийРежимToolStripMenuItem1.Text" xml:space="preserve">
     <value>Администраторский режим</value>
   </data>
-  <data name="оПрограммеToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="AboutProgramToolStrip.Size" type="System.Drawing.Size, System.Drawing">
     <value>94, 20</value>
   </data>
-  <data name="оПрограммеToolStripMenuItem1.Text" xml:space="preserve">
+  <data name="AboutProgramToolStrip.Text" xml:space="preserve">
     <value>О программе</value>
   </data>
   <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
@@ -2784,10 +2784,10 @@
   <data name="&gt;&gt;ChangeQuestionNowToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;оПрограммеToolStripMenuItem1.Name" xml:space="preserve">
-    <value>оПрограммеToolStripMenuItem1</value>
+  <data name="&gt;&gt;AboutProgramToolStrip.Name" xml:space="preserve">
+    <value>AboutProgramToolStrip</value>
   </data>
-  <data name="&gt;&gt;оПрограммеToolStripMenuItem1.Type" xml:space="preserve">
+  <data name="&gt;&gt;AboutProgramToolStrip.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;играToolStripMenuItem.Name" xml:space="preserve">
